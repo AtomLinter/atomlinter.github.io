@@ -15,28 +15,168 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
+  copyright: Kepler Sticka-Jones
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+types:
+  - title: JavaScript
+    linters:
+      - title: linter-jshint
+      - title: linter-jscs
+      - title: linter-eslint
+      - title: linter-gjslint
+      - title: linter-flow
+      - title: linter-js-standard
+  - title: React.JS
+    linters:
+      - title: linter-jsx
+  - title: CoffeeScript
+    linters:
+      - title: linter-coffeelint
+  - title: TypeScript
+    linters:
+      - title: linter-tslint
+  - title: Dart
+    linters:
+      - title: linter-dartanalyzer
+  - title: LiveScript
+    linters:
+      - title: linter-lsc
+  - title: Ruby
+    linters:
+      - title: linter-rubocop
+      - title: linter-ruby
+      - title: linter-reek
+  - title: ERB
+    linters:
+      - title: linter-erb
+  - title: Haml
+    linters:
+      - title: linter-haml
+  - title: Slim
+    linters:
+      - title: linter-slim
+  - title: PHP
+    linters:
+      - title: linter-php
+      - title: linter-phpcs
+      - title: linter-phpmd
+  - title: Python
+    linters:
+      - title: linter-pylint
+      - title: linter-pyflakes
+      - title: linter-pep8
+      - title: linter-pep257
+      - title: linter-flake8
+      - title: linter-pylama
+  - title: Java
+    linters:
+      - title: linter-javac
+  - title: CSS
+    linters:
+      - title: linter-csslint
+  - title: Sass
+    linters:
+      - title: linter-scss-lint
+  - title: SCSS
+    linters:
+      - title: linter-scss-lint
+  - title: less
+    linters:
+      - title: linter-less
+  - title: stylus
+    linters:
+      - title: linter-stylint
+      - title: linter-stylus
+  - title: XML
+    linters:
+      - title: linter-xmllint
+  - title: Bash
+    linters:
+      - title: linter-shellcheck
+  - title: Scala
+    linters:
+      - title: linter-scalac
+  - title: C
+    linters:
+      - title: linter-clang
+  - title: C++
+    linters:
+      - title: linter-clang
+      - title: linter-cpplint
+  - title: Objective-C
+    linters:
+      - title: linter-clang
+  - title: Objective-C++
+    linters:
+      - title: linter-clang
+  - title: Lua
+    linters:
+      - title: linter-lua
+      - title: linter-luacheck
+  - title: Clojure
+    linters:
+      - title: linter-clojure
+  - title: Puppet
+    linters:
+      - title: linter-puppet-lint
+  - title: Yaml
+    linters:
+      - title: linter-js-yaml
+  - title: Haskell
+    linters:
+      - title: linter-hlint
+  - title: HTML
+    linters:
+      - title: linter-tidy
+      - title: linter-htmlhint
+  - title: Bootstrap HTML
+    linters:
+      - title: linter-bootlint
+  - title: Squirrel
+    linters:
+      - title: linter-squirrel
+  - title: CoDScript
+    linters:
+      - title: linter-codscript
+  - title: harbour
+    linters:
+      - title: linter-harbour
+  - title: Rust
+    linters:
+      - title: linter-rust
+  - title: Elixir
+    linters:
+      - title: linter-elixirc
+  - title: Erlang
+    linters:
+      - title: linter-erlc
+  - title: JSONiq
+    linters:
+      - title: linter-jsoniq
+  - title: XQuery
+    linters:
+      - title: linter-jsoniq
+  - title: ActionScript
+    linters:
+      - title: linter-flexpmd
+  - title: Flash
+    linters:
+      - title: linter-flexpmd
+  - title: Flex
+    linters:
+      - title: linter-flexpmd
+  - title: AIR
+    linters:
+      - title: linter-flexpmd
+  - title: Swift
+    linters:
+      - title: linter-swiftc
+  - title: LaTeX
+    linters:
+      - title: linter-chktex
+  - title: Crystal
+    linters:
+      - title: linter-crystal
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'

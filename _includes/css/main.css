@@ -194,6 +194,17 @@ section.success {
     }
 }
 
+#portfolio.language-tile {
+  margin: 0 auto;
+}
+
+#portfolio .language-tile-text {
+  font-weight: 900;
+  font-size: 30px;
+  display: table;
+  margin: 0 auto;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
