@@ -242,6 +242,22 @@ types:
     linters:
       - title: linter-crystal
         url: https://atom.io/packages/linter-crystal
+  - title: Go
+    linters:
+      - title: linter-gotype
+        url: https://atom.io/packages/linter-gotype
+      - title: linter-govet
+        url: https://atom.io/packages/linter-govet
+      - title: linter-golinter
+        url: https://atom.io/packages/linter-golinter
+  - title: JSON
+    linters:
+      - title: linter-jsonlint
+        url: https://atom.io/packages/linter-jsonlint
+  - title: Handlebars
+    linters:
+      - title: linter-handlebars
+        url: https://atom.io/packages/linter-handlebars
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
