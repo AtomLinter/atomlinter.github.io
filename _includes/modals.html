@@ -16,7 +16,7 @@
                             <hr class="star-primary">
                             <ul class="list-group">
                                 {% for linter in type.linters %}
-                                  <li class="list-group-item">{{ linter.title }}</li>
+                                  <a class="list-group-item" href="{{ linter.url }}">{{ linter.title }}</a>
                                 {% endfor %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

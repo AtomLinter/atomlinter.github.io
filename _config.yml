@@ -21,162 +21,227 @@ types:
   - title: JavaScript
     linters:
       - title: linter-jshint
+        url: https://atom.io/packages/linter-jshint
       - title: linter-jscs
+        url: https://atom.io/packages/linter-jscs
       - title: linter-eslint
+        url: https://atom.io/packages/linter-eslint
       - title: linter-gjslint
+        url: https://atom.io/packages/linter-gjslint
       - title: linter-flow
+        url: https://atom.io/packages/linter-flow
       - title: linter-js-standard
+        url: https://atom.io/packages/linter-js-standard
   - title: React.JS
     linters:
       - title: linter-jsx
+        url: https://atom.io/packages/linter-jsx
   - title: CoffeeScript
     linters:
       - title: linter-coffeelint
+        url: https://atom.io/packages/linter-coffeelint
   - title: TypeScript
     linters:
       - title: linter-tslint
+        url: https://atom.io/packages/linter-tslint
   - title: Dart
     linters:
       - title: linter-dartanalyzer
+        url: https://atom.io/packages/linter-dartanalyzer
   - title: LiveScript
     linters:
       - title: linter-lsc
+        url: https://atom.io/packages/linter-lsc
   - title: Ruby
     linters:
       - title: linter-rubocop
+        url: https://atom.io/packages/linter-rubocop
       - title: linter-ruby
+        url: https://atom.io/packages/linter-ruby
       - title: linter-reek
+        url: https://atom.io/packages/linter-reek
   - title: ERB
     linters:
       - title: linter-erb
+        url: https://atom.io/packages/linter-erb
   - title: Haml
     linters:
       - title: linter-haml
+        url: https://atom.io/packages/linter-haml
   - title: Slim
     linters:
       - title: linter-slim
+        url: https://atom.io/packages/linter-slim
   - title: PHP
     linters:
       - title: linter-php
+        url: https://atom.io/packages/linter-php
       - title: linter-phpcs
+        url: https://atom.io/packages/linter-phpcs
       - title: linter-phpmd
+        url: https://atom.io/packages/linter-phpmd
   - title: Python
     linters:
       - title: linter-pylint
+        url: https://atom.io/packages/linter-pylint
       - title: linter-pyflakes
+        url: https://atom.io/packages/linter-pyflakes
       - title: linter-pep8
+        url: https://atom.io/packages/linter-pep8
       - title: linter-pep257
+        url: https://atom.io/packages/linter-pep257
       - title: linter-flake8
+        url: https://atom.io/packages/linter-flake8
       - title: linter-pylama
+        url: https://atom.io/packages/linter-pylama
   - title: Java
     linters:
       - title: linter-javac
+        url: https://atom.io/packages/linter-javac
   - title: CSS
     linters:
       - title: linter-csslint
+        url: https://atom.io/packages/linter-csslint
   - title: Sass
     linters:
       - title: linter-scss-lint
+        url: https://atom.io/packages/linter-scss-lint
   - title: SCSS
     linters:
       - title: linter-scss-lint
+        url: https://atom.io/packages/linter-scss-lint
   - title: less
     linters:
       - title: linter-less
+        url: https://atom.io/packages/linter-less
   - title: stylus
     linters:
       - title: linter-stylint
+        url: https://atom.io/packages/linter-stylus
       - title: linter-stylus
+        url: https://atom.io/packages/linter-stylus
   - title: XML
     linters:
       - title: linter-xmllint
+        url: https://atom.io/packages/linter-xmllint
   - title: Bash
     linters:
       - title: linter-shellcheck
+        url: https://atom.io/packages/linter-shellcheck
   - title: Scala
     linters:
       - title: linter-scalac
+        url: https://atom.io/packages/linter-scalac
   - title: C
     linters:
       - title: linter-clang
+        url: https://atom.io/packages/linter-clang
   - title: C++
     linters:
       - title: linter-clang
+        url: https://atom.io/packages/linter-clang
       - title: linter-cpplint
+        url: https://atom.io/packages/linter-cpplint
   - title: Objective-C
     linters:
       - title: linter-clang
+        url: https://atom.io/packages/linter-clang
   - title: Objective-C++
     linters:
       - title: linter-clang
+        url: https://atom.io/packages/linter-clang
   - title: Lua
     linters:
       - title: linter-lua
+        url: https://atom.io/packages/linter-lua
       - title: linter-luacheck
+        url: https://atom.io/packages/linter-luacheck
   - title: Clojure
     linters:
       - title: linter-clojure
+        url: https://atom.io/packages/linter-clojure
   - title: Puppet
     linters:
       - title: linter-puppet-lint
+        url: https://atom.io/packages/linter-puppet-lint
   - title: Yaml
     linters:
       - title: linter-js-yaml
+        url: https://atom.io/packages/linter-js-yaml
   - title: Haskell
     linters:
       - title: linter-hlint
+        url: https://atom.io/packages/linter-hlint
   - title: HTML
     linters:
       - title: linter-tidy
+        url: https://atom.io/packages/linter-tidy
       - title: linter-htmlhint
+        url: https://atom.io/packages/linter-tidy
   - title: Bootstrap HTML
     linters:
       - title: linter-bootlint
+        url: https://atom.io/packages/linter-bootlint
   - title: Squirrel
     linters:
       - title: linter-squirrel
+        url: https://atom.io/packages/linter-squirrel
   - title: CoDScript
     linters:
       - title: linter-codscript
+        url: https://atom.io/packages/linter-codscript
   - title: harbour
     linters:
       - title: linter-harbour
+        url: https://atom.io/packages/linter-harbour
   - title: Rust
     linters:
       - title: linter-rust
+        url: https://atom.io/packages/linter-rust
   - title: Elixir
     linters:
       - title: linter-elixirc
+        url: https://atom.io/packages/linter-elixirc
   - title: Erlang
     linters:
       - title: linter-erlc
+        url: https://atom.io/packages/linter-erlc
   - title: JSONiq
     linters:
       - title: linter-jsoniq
+        url: https://atom.io/packages/linter-jsoniq
   - title: XQuery
     linters:
       - title: linter-jsoniq
+        url: https://atom.io/packages/linter-jsoniq
   - title: ActionScript
     linters:
       - title: linter-flexpmd
+        url: https://atom.io/packages/linter-flexpmd
   - title: Flash
     linters:
       - title: linter-flexpmd
+        url: https://atom.io/packages/linter-flexpmd
   - title: Flex
     linters:
       - title: linter-flexpmd
+        url: https://atom.io/packages/linter-flexpmd
   - title: AIR
     linters:
       - title: linter-flexpmd
+        url: https://atom.io/packages/linter-flexpmd
   - title: Swift
     linters:
       - title: linter-swiftc
+        url: https://atom.io/packages/linter-swiftc
   - title: LaTeX
     linters:
       - title: linter-chktex
+        url: https://atom.io/packages/linter-chktex
   - title: Crystal
     linters:
       - title: linter-crystal
+        url: https://atom.io/packages/linter-crystal
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
