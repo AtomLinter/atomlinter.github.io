@@ -177,7 +177,7 @@ types:
       - title: linter-tidy
         url: https://atom.io/packages/linter-tidy
       - title: linter-htmlhint
-        url: https://atom.io/packages/linter-tidy
+        url: https://atom.io/packages/linter-htmlhint
   - title: Bootstrap HTML
     linters:
       - title: linter-bootlint
