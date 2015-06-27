@@ -9,13 +9,14 @@
                 </div>
             </div>
             <div class="row">
-                {% for type in site.types %}
-                    <div class="col-xs-6 col-md-3 portfolio-item">
-                        <a href="#portfolioModal-{{ forloop.index }}" class="thumbnail" data-toggle="modal">
-                            <div class="language-tile language-tile-text">{{ type.title }}</div>
-                        </a>
-                    </div>
-                {% endfor %}
+              {% assign languages = site.types | sort: 'title' %}
+              {% for type in languages %}
+                <div class="col-xs-6 col-md-3 portfolio-item">
+                  <a href="#portfolioModal-{{ forloop.index }}" class="thumbnail" data-toggle="modal">
+                    <div class="language-tile language-tile-text">{{ type.title }}</div>
+                  </a>
+                </div>
+              {% endfor %}
             </div>
         </div>
     </section>
