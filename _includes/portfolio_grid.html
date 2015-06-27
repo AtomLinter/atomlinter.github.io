@@ -10,10 +10,10 @@
             </div>
             <div class="row">
               {% assign languages = site.types | sort: 'title' %}
-              {% for type in languages %}
+              {% for language in languages %}
                 <div class="col-xs-6 col-md-3 portfolio-item">
-                  <a href="#portfolioModal-{{ forloop.index }}" class="thumbnail" data-toggle="modal">
-                    <div class="language-tile language-tile-text">{{ type.title }}</div>
+                  <a href="#language-{{ language.modal }}" class="thumbnail" data-toggle="modal">
+                    <div class="language-tile language-tile-text">{{ language.title }}</div>
                   </a>
                 </div>
               {% endfor %}
