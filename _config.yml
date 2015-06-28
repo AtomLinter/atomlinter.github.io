@@ -36,8 +36,8 @@ types:
   - title: React.JS
     modal: jsx
     linters:
-      - title: linter-jsx
-        url: https://atom.io/packages/linter-jsx
+      - title: linter-jsxhint
+        url: https://atom.io/packages/linter-jsxhint
   - title: CoffeeScript
     modal: coffee
     linters:
