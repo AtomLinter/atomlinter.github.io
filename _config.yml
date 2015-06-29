@@ -354,7 +354,16 @@ linters:
         packages:
           - title: linter-flint
             url: https://atom.io/packages/linter-flint
-
+  - plugin:
+    title: Linter Plugins
+    plural: Plugins
+    modal: plugin
+    types:
+      - title: Minimap
+        modal: Minimap
+        packages:
+          - title: minimap-linter
+            url: https://atom.io/packages/minimap-linter
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
