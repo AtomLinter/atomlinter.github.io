@@ -1,6 +1,6 @@
  <!-- Portfolio Modals -->
  {% for language in site.languages %}
-    <div class="portfolio-modal modal fade" id="language-{{ type.modal }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="language-{{ language.modal }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -12,11 +12,11 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ type.title }} Linters</h2>
+                            <h2>{{ language.title }} Linters</h2>
                             <hr class="star-primary">
                             <ul class="list-group">
-                                {% for linter in type.linters %}
-                                  <a class="list-group-item" href="{{ linter.url }}">{{ linter.title }}</a>
+                                {% for package in language.packages %}
+                                  <a class="list-group-item" href="{{ package.url }}">{{ package.title }}</a>
                                 {% endfor %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
