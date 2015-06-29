@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row">
-              {% assign languages = site.types | sort: 'title' %}
+              {% assign languages = site.languages | sort: 'title' %}
               {% for language in languages %}
                 <div class="col-xs-6 col-md-3 portfolio-item">
                   <a href="#language-{{ language.modal }}" class="thumbnail" data-toggle="modal">
