@@ -1,21 +1,22 @@
-
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Language Specific Linters</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-              {% assign languages = site.languages | sort: 'title' %}
-              {% for language in languages %}
-                <div class="col-xs-6 col-md-3 portfolio-item">
-                  <a href="#language-{{ language.modal }}" class="thumbnail" data-toggle="modal">
-                    <div class="language-tile language-tile-text">{{ language.title }}</div>
-                  </a>
-                </div>
-              {% endfor %}
-            </div>
-        </div>
-    </section>
+{% for scope in site.linters %}
+  <section id="portfolio">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2>{{ scope.title }}</h2>
+                  <hr class="star-primary">
+              </div>
+          </div>
+          <div class="row">
+            {% assign types = scope.types | sort: 'title' %}
+            {% for type in types %}
+              <div class="col-xs-6 col-md-3 portfolio-item">
+                <a href="#{{ scope.modal }}-{{ type.modal }}" class="thumbnail" data-toggle="modal">
+                  <div class="language-tile language-tile-text">{{ type.title }}</div>
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+      </div>
+  </section>
+{% endfor %}
