@@ -328,7 +328,7 @@ linters:
         packages:
           - title: nuclide-installer
             url: https://atom.io/packages/nuclide-installer
-      - title: JavaScipt
+      - title: Flow JavaScipt
         modal: js
         packages:
           - title: nuclide-installer
