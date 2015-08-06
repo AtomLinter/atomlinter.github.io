@@ -38,6 +38,8 @@ linters:
             url: https://atom.io/packages/linter-flow
           - title: linter-js-standard
             url: https://atom.io/packages/linter-js-standard
+          - title: linter-xo
+            url: https://atom.io/packages/linter-xo
       - title: React.JS
         modal: jsx
         packages:
