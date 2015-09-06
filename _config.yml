@@ -132,9 +132,7 @@ linters:
         modal: stylus
         packages:
           - title: linter-stylint
-            url: https://atom.io/packages/linter-stylus
-          - title: linter-stylus
-            url: https://atom.io/packages/linter-stylus
+            url: https://atom.io/packages/linter-stylint
       - title: Bash
         modal: sh
         packages:
