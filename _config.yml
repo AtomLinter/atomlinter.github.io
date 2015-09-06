@@ -99,8 +99,6 @@ linters:
         packages:
           - title: linter-pylint
             url: https://atom.io/packages/linter-pylint
-          - title: linter-pyflakes
-            url: https://atom.io/packages/linter-pyflakes
           - title: linter-pep8
             url: https://atom.io/packages/linter-pep8
           - title: linter-pep257
