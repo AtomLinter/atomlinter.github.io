@@ -34,8 +34,6 @@ linters:
             url: https://atom.io/packages/linter-eslint
           - title: linter-flow
             url: https://atom.io/packages/linter-flow
-          - title: linter-flow-plus
-            url: https://atom.io/packages/linter-flow-plus
           - title: linter-js-standard
             url: https://atom.io/packages/linter-js-standard
           - title: linter-xo
