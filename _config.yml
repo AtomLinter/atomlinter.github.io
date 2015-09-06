@@ -229,11 +229,6 @@ linters:
         packages:
           - title: linter-bootlint
             url: https://atom.io/packages/linter-bootlint
-      - title: Squirrel
-        modal: squirrel
-        packages:
-          - title: linter-squirrel
-            url: https://atom.io/packages/linter-squirrel
       - title: harbour
         modal: harbour
         packages:
