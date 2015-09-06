@@ -190,8 +190,6 @@ linters:
         packages:
           - title: linter-clang
             url: https://atom.io/packages/linter-clang
-          - title: linter-cpplint
-            url: https://atom.io/packages/linter-cpplint
           - title: linter-gcc
             url: https://atom.io/packages/linter-gcc
           - title: linter-moose
