@@ -135,11 +135,6 @@ linters:
             url: https://atom.io/packages/linter-stylus
           - title: linter-stylus
             url: https://atom.io/packages/linter-stylus
-      - title: XML
-        modal: xml
-        packages:
-          - title: linter-xmllint
-            url: https://atom.io/packages/linter-xmllint
       - title: Bash
         modal: sh
         packages:
