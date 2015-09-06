@@ -260,11 +260,6 @@ linters:
         packages:
           - title: linter-rust
             url: https://atom.io/packages/linter-rust
-      - title: Elixir
-        modal: elixir
-        packages:
-          - title: linter-elixirc
-            url: https://atom.io/packages/linter-elixirc
       - title: Erlang
         modal: erlang
         packages:
