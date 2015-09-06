@@ -63,11 +63,6 @@ linters:
         packages:
           - title: linter-tslint
             url: https://atom.io/packages/linter-tslint
-      - title: Dart
-        modal: dart
-        packages:
-          - title: linter-dartanalyzer
-            url: https://atom.io/packages/linter-dartanalyzer
       - title: LiveScript
         modal: ls
         packages:
