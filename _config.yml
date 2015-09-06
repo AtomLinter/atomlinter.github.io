@@ -295,8 +295,6 @@ linters:
       - title: Go
         modal: go
         packages:
-          - title: linter-gotype
-            url: https://atom.io/packages/linter-gotype
           - title: linter-govet
             url: https://atom.io/packages/linter-govet
           - title: linter-golinter
