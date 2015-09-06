@@ -265,16 +265,6 @@ linters:
         packages:
           - title: linter-erlang
             url: https://atom.io/packages/linter-erlang
-      - title: JSONiq
-        modal: jsoniq
-        packages:
-          - title: linter-jsoniq
-            url: https://atom.io/packages/linter-jsoniq
-      - title: XQuery
-        modal: xquery
-        packages:
-          - title: linter-jsoniq
-            url: https://atom.io/packages/linter-jsoniq
       - title: Swift
         modal: swift
         packages:
