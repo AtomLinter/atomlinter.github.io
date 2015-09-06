@@ -299,26 +299,6 @@ linters:
         packages:
           - title: linter-jsoniq
             url: https://atom.io/packages/linter-jsoniq
-      - title: ActionScript
-        modal: as
-        packages:
-          - title: linter-flexpmd
-            url: https://atom.io/packages/linter-flexpmd
-      - title: Flash
-        modal: swf
-        packages:
-          - title: linter-flexpmd
-            url: https://atom.io/packages/linter-flexpmd
-      - title: Flex
-        modal: flex
-        packages:
-          - title: linter-flexpmd
-            url: https://atom.io/packages/linter-flexpmd
-      - title: AIR
-        modal: air
-        packages:
-          - title: linter-flexpmd
-            url: https://atom.io/packages/linter-flexpmd
       - title: Swift
         modal: swift
         packages:
