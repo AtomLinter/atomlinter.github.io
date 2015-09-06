@@ -263,8 +263,6 @@ linters:
       - title: Erlang
         modal: erlang
         packages:
-          - title: linter-erlc
-            url: https://atom.io/packages/linter-erlc
           - title: linter-erlang
             url: https://atom.io/packages/linter-erlang
       - title: JSONiq
