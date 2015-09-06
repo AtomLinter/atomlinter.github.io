@@ -224,11 +224,6 @@ linters:
         packages:
           - title: linter-bootlint
             url: https://atom.io/packages/linter-bootlint
-      - title: harbour
-        modal: harbour
-        packages:
-          - title: linter-harbour
-            url: https://atom.io/packages/linter-harbour
       - title: Rust
         modal: rust
         packages:
