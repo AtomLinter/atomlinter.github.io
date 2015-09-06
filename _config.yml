@@ -260,11 +260,6 @@ linters:
         packages:
           - title: linter-squirrel
             url: https://atom.io/packages/linter-squirrel
-      - title: CoDScript
-        modal: cod
-        packages:
-          - title: linter-codscript
-            url: https://atom.io/packages/linter-codscript
       - title: harbour
         modal: harbour
         packages:
