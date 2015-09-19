@@ -349,6 +349,11 @@ linters:
         packages:
           - title: atom-typescript
             url: https://atom.io/packages/atom-typescript
+      - title: F#
+        modal: fs
+        packages:
+          - title: ionide-installer
+            url: https://atom.io/packages/ionide-installer
       # TODO: Add to public listing when haskell ide updates.
       #- title: Haskell
       #  modal: hs
