@@ -324,6 +324,11 @@ linters:
         packages:
           - title: linter-moonscript
             url: https://atom.io/packages/linter-moonscript
+      - title: MATLAB
+        modal: matlab
+        packages:
+          - title: linter-matlab
+            url: https://atom.io/packages/linter-matlab
   - ides:
     title: Integrated Devlopment Environments
     plural: IDEs
