@@ -152,6 +152,8 @@ linters:
             url: https://atom.io/packages/linter-gcc
           - title: linter-moose
             url: https://atom.io/packages/linter-moose
+          - title: linter-emscripten
+            url: https://atom.io/packages/linter-emscripten
       - title: C++
         modal: cpp
         packages:
@@ -161,16 +163,22 @@ linters:
             url: https://atom.io/packages/linter-gcc
           - title: linter-moose
             url: https://atom.io/packages/linter-moose
+          - title: linter-emscripten
+            url: https://atom.io/packages/linter-emscripten
       - title: Objective-C
         modal: m
         packages:
           - title: linter-clang
             url: https://atom.io/packages/linter-clang
+          - title: linter-emscripten
+            url: https://atom.io/packages/linter-emscripten
       - title: Objective-C++
         modal: mm
         packages:
           - title: linter-clang
             url: https://atom.io/packages/linter-clang
+          - title: linter-emscripten
+            url: https://atom.io/packages/linter-emscripten
       - title: Lua
         modal: lua
         packages:
