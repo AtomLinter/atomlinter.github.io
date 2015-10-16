@@ -42,6 +42,8 @@ linters:
             url: https://atom.io/packages/linter-marlint
           - title: linter-liferay
             url: https://atom.io/packages/linter-liferay
+          - title: linter-gjslint
+            url: https://atom.io/packages/linter-gjslint
       - title: CoffeeScript
         modal: coffee
         packages:
