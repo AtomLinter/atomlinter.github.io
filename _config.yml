@@ -51,6 +51,11 @@ linters:
             url: https://atom.io/packages/linter-coffeelint
           - title: linter-coffeescript
             url: https://atom.io/packages/linter-coffeescript
+      - title: ColdFusion
+        modal: cf
+        packages:
+          - title: linter-cflint
+            url: https://atom.io/packages/linter-cflint
       - title: TypeScript
         modal: ts
         packages:
