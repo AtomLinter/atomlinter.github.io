@@ -123,6 +123,8 @@ linters:
             url: https://atom.io/packages/linter-scss-lint
           - title: linter-9e-sass
             url: https://atom.io/packages/linter-9e-sass
+          - title: linter-sass-lint
+            url: https://atom.io/packages/linter-sass-lint
       - title: SCSS
         modal: scss
         packages:
@@ -130,6 +132,8 @@ linters:
             url: https://atom.io/packages/linter-scss-lint
           - title: linter-liferay
             url: https://atom.io/packages/linter-liferay
+          - title: linter-sass-lint
+            url: https://atom.io/packages/linter-sass-lint
       - title: less
         modal: less
         packages:
