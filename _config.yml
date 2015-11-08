@@ -358,16 +358,6 @@ linters:
         packages:
           - title: omnisharp-atom
             url: https://atom.io/packages/omnisharp-atom
-      - title: Hack
-        modal: hh
-        packages:
-          - title: nuclide-installer
-            url: https://atom.io/packages/nuclide-installer
-      - title: Flow JavaScipt
-        modal: js
-        packages:
-          - title: nuclide-installer
-            url: https://atom.io/packages/nuclide-installer
       - title: TypeScript
         modal: ts
         packages:
