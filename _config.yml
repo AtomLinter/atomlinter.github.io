@@ -368,12 +368,11 @@ linters:
         packages:
           - title: ionide-installer
             url: https://atom.io/packages/ionide-installer
-      # TODO: Add to public listing when haskell ide updates.
-      #- title: Haskell
-      #  modal: hs
-      #  packages:
-      #    - title: atom-haskell
-      #      url: https://atom.io/packages/atom-haskell
+      - title: Haskell
+        modal: hs
+        packages:
+          - title: ide-haskell
+            url: https://atom.io/packages/ide-haskell
   - generic:
     title: Generic Linters
     plural: Linters
