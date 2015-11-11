@@ -348,6 +348,11 @@ linters:
         packages:
           - title: linter-matlab
             url: https://atom.io/packages/linter-matlab
+      - title: XML
+        modal: xml
+        packages:
+          - title: linter-xmllint
+            url: https://atom.io/packages/linter-xmllint
   - ides:
     title: Integrated Devlopment Environments
     plural: IDEs
