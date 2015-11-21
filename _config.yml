@@ -32,32 +32,35 @@ linters:
             url: https://atom.io/packages/linter-jscs
           - title: linter-eslint
             url: https://atom.io/packages/linter-eslint
-          - title: linter-gjslint
-            url: https://atom.io/packages/linter-gjslint
           - title: linter-flow
             url: https://atom.io/packages/linter-flow
           - title: linter-js-standard
             url: https://atom.io/packages/linter-js-standard
-      - title: React.JS
-        modal: jsx
-        packages:
-          - title: linter-jsxhint
-            url: https://atom.io/packages/linter-jsxhint
+          - title: linter-xo
+            url: https://atom.io/packages/linter-xo
+          - title: linter-marlint
+            url: https://atom.io/packages/linter-marlint
+          - title: linter-liferay
+            url: https://atom.io/packages/linter-liferay
+          - title: linter-gjslint
+            url: https://atom.io/packages/linter-gjslint
       - title: CoffeeScript
         modal: coffee
         packages:
           - title: linter-coffeelint
             url: https://atom.io/packages/linter-coffeelint
+          - title: linter-coffeescript
+            url: https://atom.io/packages/linter-coffeescript
+      - title: ColdFusion
+        modal: cf
+        packages:
+          - title: linter-cflint
+            url: https://atom.io/packages/linter-cflint
       - title: TypeScript
         modal: ts
         packages:
           - title: linter-tslint
             url: https://atom.io/packages/linter-tslint
-      - title: Dart
-        modal: dart
-        packages:
-          - title: linter-dartanalyzer
-            url: https://atom.io/packages/linter-dartanalyzer
       - title: LiveScript
         modal: ls
         packages:
@@ -72,21 +75,13 @@ linters:
             url: https://atom.io/packages/linter-ruby
           - title: linter-reek
             url: https://atom.io/packages/linter-reek
-      - title: ERB
-        modal: erb
-        packages:
-          - title: linter-erb
-            url: https://atom.io/packages/linter-erb
+          - title: linter-ruby-reek
+            url: https://atom.io/packages/linter-ruby-reek
       - title: Haml
         modal: haml
         packages:
           - title: linter-haml
             url: https://atom.io/packages/linter-haml
-      - title: Slim
-        modal: slim
-        packages:
-          - title: linter-slim
-            url: https://atom.io/packages/linter-slim
       - title: PHP
         modal: php
         packages:
@@ -101,8 +96,6 @@ linters:
         packages:
           - title: linter-pylint
             url: https://atom.io/packages/linter-pylint
-          - title: linter-pyflakes
-            url: https://atom.io/packages/linter-pyflakes
           - title: linter-pep8
             url: https://atom.io/packages/linter-pep8
           - title: linter-pep257
@@ -121,16 +114,26 @@ linters:
         packages:
           - title: linter-csslint
             url: https://atom.io/packages/linter-csslint
+          - title: linter-liferay
+            url: https://atom.io/packages/linter-liferay
       - title: Sass
         modal: sass
         packages:
           - title: linter-scss-lint
             url: https://atom.io/packages/linter-scss-lint
+          - title: linter-9e-sass
+            url: https://atom.io/packages/linter-9e-sass
+          - title: linter-sass-lint
+            url: https://atom.io/packages/linter-sass-lint
       - title: SCSS
         modal: scss
         packages:
           - title: linter-scss-lint
             url: https://atom.io/packages/linter-scss-lint
+          - title: linter-liferay
+            url: https://atom.io/packages/linter-liferay
+          - title: linter-sass-lint
+            url: https://atom.io/packages/linter-sass-lint
       - title: less
         modal: less
         packages:
@@ -140,14 +143,7 @@ linters:
         modal: stylus
         packages:
           - title: linter-stylint
-            url: https://atom.io/packages/linter-stylus
-          - title: linter-stylus
-            url: https://atom.io/packages/linter-stylus
-      - title: XML
-        modal: xml
-        packages:
-          - title: linter-xmllint
-            url: https://atom.io/packages/linter-xmllint
+            url: https://atom.io/packages/linter-stylint
       - title: Bash
         modal: sh
         packages:
@@ -163,23 +159,37 @@ linters:
         packages:
           - title: linter-clang
             url: https://atom.io/packages/linter-clang
+          - title: linter-gcc
+            url: https://atom.io/packages/linter-gcc
+          - title: linter-moose
+            url: https://atom.io/packages/linter-moose
+          - title: linter-emscripten
+            url: https://atom.io/packages/linter-emscripten
       - title: C++
         modal: cpp
         packages:
           - title: linter-clang
             url: https://atom.io/packages/linter-clang
-          - title: linter-cpplint
-            url: https://atom.io/packages/linter-cpplint
+          - title: linter-gcc
+            url: https://atom.io/packages/linter-gcc
+          - title: linter-moose
+            url: https://atom.io/packages/linter-moose
+          - title: linter-emscripten
+            url: https://atom.io/packages/linter-emscripten
       - title: Objective-C
         modal: m
         packages:
           - title: linter-clang
             url: https://atom.io/packages/linter-clang
+          - title: linter-emscripten
+            url: https://atom.io/packages/linter-emscripten
       - title: Objective-C++
         modal: mm
         packages:
           - title: linter-clang
             url: https://atom.io/packages/linter-clang
+          - title: linter-emscripten
+            url: https://atom.io/packages/linter-emscripten
       - title: Lua
         modal: lua
         packages:
@@ -187,6 +197,10 @@ linters:
             url: https://atom.io/packages/linter-lua
           - title: linter-luacheck
             url: https://atom.io/packages/linter-luacheck
+          - title: linter-lua-findglobals
+            url: https://atom.io/packages/linter-lua-findglobals
+          - title: linter-glua
+            url: https://atom.io/packages/linter-glua
       - title: Clojure
         modal: clojure
         packages:
@@ -197,6 +211,10 @@ linters:
         packages:
           - title: linter-puppet-lint
             url: https://atom.io/packages/linter-puppet-lint
+          - title: linter-puppet-parse
+            url: https://atom.io/packages/linter-puppet-parse
+          - title: linter-puppet-parser
+            url: https://atom.io/packages/linter-puppet-parser
       - title: Yaml
         modal: yaml
         packages:
@@ -207,6 +225,8 @@ linters:
         packages:
           - title: linter-hlint
             url: https://atom.io/packages/linter-hlint
+          - title: linter-hdevtools
+            url: https://atom.io/packages/linter-hdevtools
       - title: HTML
         modal: html
         packages:
@@ -214,76 +234,30 @@ linters:
             url: https://atom.io/packages/linter-tidy
           - title: linter-htmlhint
             url: https://atom.io/packages/linter-htmlhint
+          - title: linter-liferay
+            url: https://atom.io/packages/linter-liferay
       - title: Bootstrap HTML
         modal: twbs
         packages:
           - title: linter-bootlint
             url: https://atom.io/packages/linter-bootlint
-      - title: Squirrel
-        modal: squirrel
-        packages:
-          - title: linter-squirrel
-            url: https://atom.io/packages/linter-squirrel
-      - title: CoDScript
-        modal: cod
-        packages:
-          - title: linter-codscript
-            url: https://atom.io/packages/linter-codscript
-      - title: harbour
-        modal: harbour
-        packages:
-          - title: linter-harbour
-            url: https://atom.io/packages/linter-harbour
       - title: Rust
         modal: rust
         packages:
           - title: linter-rust
             url: https://atom.io/packages/linter-rust
-      - title: Elixir
-        modal: elixir
-        packages:
-          - title: linter-elixirc
-            url: https://atom.io/packages/linter-elixirc
       - title: Erlang
         modal: erlang
         packages:
-          - title: linter-erlc
-            url: https://atom.io/packages/linter-erlc
-      - title: JSONiq
-        modal: jsoniq
-        packages:
-          - title: linter-jsoniq
-            url: https://atom.io/packages/linter-jsoniq
-      - title: XQuery
-        modal: xquery
-        packages:
-          - title: linter-jsoniq
-            url: https://atom.io/packages/linter-jsoniq
-      - title: ActionScript
-        modal: as
-        packages:
-          - title: linter-flexpmd
-            url: https://atom.io/packages/linter-flexpmd
-      - title: Flash
-        modal: swf
-        packages:
-          - title: linter-flexpmd
-            url: https://atom.io/packages/linter-flexpmd
-      - title: Flex
-        modal: flex
-        packages:
-          - title: linter-flexpmd
-            url: https://atom.io/packages/linter-flexpmd
-      - title: AIR
-        modal: air
-        packages:
-          - title: linter-flexpmd
-            url: https://atom.io/packages/linter-flexpmd
+          - title: linter-erlang
+            url: https://atom.io/packages/linter-erlang
       - title: Swift
         modal: swift
         packages:
           - title: linter-swiftc
             url: https://atom.io/packages/linter-swiftc
+          - title: linter-swiftlint
+            url: https://atom.io/packages/linter-swiftlint
       - title: LaTeX
         modal: latex
         packages:
@@ -297,10 +271,6 @@ linters:
       - title: Go
         modal: go
         packages:
-          - title: linter-gotype
-            url: https://atom.io/packages/linter-gotype
-          - title: linter-govet
-            url: https://atom.io/packages/linter-govet
           - title: linter-golinter
             url: https://atom.io/packages/linter-golinter
       - title: JSON
@@ -308,11 +278,81 @@ linters:
         packages:
           - title: linter-jsonlint
             url: https://atom.io/packages/linter-jsonlint
+          - title: linter-package-json-validator
+            url: https://atom.io/packages/linter-package-json-validator
       - title: Handlebars
         modal: handlebars
         packages:
           - title: linter-handlebars
             url: https://atom.io/packages/linter-handlebars
+          - title: linter-liferay
+            url: https://atom.io/packages/linter-liferay
+      - title: Jade
+        modal: jade
+        packages:
+          - title: linter-jade
+            url: https://atom.io/packages/linter-jade
+      - title: Jolie
+        modal: jolie
+        packages:
+          - title: linter-jolie
+            url: https://atom.io/packages/linter-jolie
+      - title: Markdown
+        modal: markdown
+        packages:
+          - title: linter-markdownlint
+            url: https://atom.io/packages/linter-markdownlint
+          - title: linter-markdown
+            url: https://atom.io/packages/linter-markdown
+          - title: linter-node-markdownlint
+            url: https://atom.io/packages/linter-node-markdownlint
+      - title: Apache Velocity
+        modal: velocity
+        packages:
+          - title: linter-liferay
+            url: https://atom.io/packages/linter-liferay
+      - title: Perl
+        modal: perl
+        packages:
+          - title: linter-perlcritic
+            url: https://atom.io/packages/linter-perlcritic
+          - title: linter-perl
+            url: https://atom.io/packages/linter-perl
+      - title: Protocol Buffer
+        modal: protobuf
+        packages:
+          - title: linter-protocol-buffer
+            url: https://atom.io/packages/linter-protocol-buffer
+      - title: CSPM
+        modal: cspm
+        packages:
+          - title: linter-cspm
+            url: https://atom.io/packages/linter-cspm
+      - title: Elm
+        modal: elm
+        packages:
+          - title: linter-elm-make
+            url: https://atom.io/packages/linter-elm-make
+      - title: Prolog
+        modal: prolog
+        packages:
+          - title: linter-prolog
+            url: https://atom.io/packages/linter-prolog
+      - title: Moonscript
+        modal: moonscript
+        packages:
+          - title: linter-moonscript
+            url: https://atom.io/packages/linter-moonscript
+      - title: MATLAB
+        modal: matlab
+        packages:
+          - title: linter-matlab
+            url: https://atom.io/packages/linter-matlab
+      - title: XML
+        modal: xml
+        packages:
+          - title: linter-xmllint
+            url: https://atom.io/packages/linter-xmllint
   - ides:
     title: Integrated Devlopment Environments
     plural: IDEs
@@ -323,27 +363,21 @@ linters:
         packages:
           - title: omnisharp-atom
             url: https://atom.io/packages/omnisharp-atom
-      - title: Hack
-        modal: hh
-        packages:
-          - title: nuclide-installer
-            url: https://atom.io/packages/nuclide-installer
-      - title: Flow JavaScipt
-        modal: js
-        packages:
-          - title: nuclide-installer
-            url: https://atom.io/packages/nuclide-installer
       - title: TypeScript
         modal: ts
         packages:
           - title: atom-typescript
             url: https://atom.io/packages/atom-typescript
-      # TODO: Add to public listing when haskell ide updates.
-      #- title: Haskell
-      #  modal: hs
-      #  packages:
-      #    - title: atom-haskell
-      #      url: https://atom.io/packages/atom-haskell
+      - title: F#
+        modal: fs
+        packages:
+          - title: ionide-installer
+            url: https://atom.io/packages/ionide-installer
+      - title: Haskell
+        modal: hs
+        packages:
+          - title: ide-haskell
+            url: https://atom.io/packages/ide-haskell
   - generic:
     title: Generic Linters
     plural: Linters
@@ -354,6 +388,20 @@ linters:
         packages:
           - title: linter-flint
             url: https://atom.io/packages/linter-flint
+      - title: Writing Assistance
+        modal: writing
+        packages:
+          - title: linter-alex
+            url: https://atom.io/packages/linter-alex
+          - title: linter-write-good
+            url: https://atom.io/packages/linter-write-good
+          - title: linter-just-say-no
+            url: https://atom.io/packages/linter-just-say-no
+      - title: Spell Checking
+        modal: spelling
+        packages:
+          - title: linter-scspell
+            url: https://atom.io/packages/linter-scspell
   - plugin:
     title: Linter Plugins
     plural: Plugins
@@ -364,6 +412,11 @@ linters:
         packages:
           - title: minimap-linter
             url: https://atom.io/packages/minimap-linter
+      - title: Docking
+        modal: docking
+        packages:
+          - title: linter-manager
+            url: https://atom.io/packages/linter-manager
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
