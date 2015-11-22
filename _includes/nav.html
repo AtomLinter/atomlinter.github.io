@@ -1,35 +1,23 @@
-   <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">{{ site.title }}</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a href="//atom.io/packages/linter">APM</a>
-                    </li>
-                    <li>
-                        <a href="//atom-slack.herokuapp.com/">Slack</a>
-                    </li>
-                    <li>
-                        <a href="//github.com/AtomLinter/Linter">GitHub</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
+<!-- Navigation -->
+<header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">AtomLinter</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="//atom.io/packages/linter">Atom Package Manager</a>
+        <a class="mdl-navigation__link" href="//atom-slack.herokuapp.com/">Slack</a>
+        <a class="mdl-navigation__link" href="//github.com/AtomLinter/Linter">GitHub</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">AtomLinter</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="//atom.io/packages/linter">Atom Package Manager</a>
+      <a class="mdl-navigation__link" href="//atom-slack.herokuapp.com/">Slack</a>
+      <a class="mdl-navigation__link" href="//github.com/AtomLinter/Linter">GitHub</a>
     </nav>
+  </div>
