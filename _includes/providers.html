@@ -1,5 +1,5 @@
 {% for scope in site.data.providers %}
-<div class="content-grid mdl-grid" id="{{ scope.modal }}">
+<div id="{{ scope.modal }}">
     <h2>{{ scope.title }}</h2>
     <div class="mdl-grid">
       {% assign types = scope.types | sort: 'title' %}
