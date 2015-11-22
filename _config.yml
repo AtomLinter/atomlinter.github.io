@@ -2,7 +2,7 @@
 title: AtomLinter
 email: kepler+atomlinter@stickajones.org
 url: https://atomlinter.github.io
-description: "Lint your code with ease in Atom."
+description: Lint your code with ease in Atom.
 
 # Contact form: comment the line below if you want to stick with the default PHP contact form
 contact: static
