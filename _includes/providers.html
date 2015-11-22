@@ -7,13 +7,18 @@
                   <hr class="star-primary">
               </div>
           </div>
-          <div class="row">
+          <div class="mdl-grid">
             {% assign types = scope.types | sort: 'title' %}
             {% for type in types %}
-              <div class="col-xs-6 col-md-3 portfolio-item">
-                <a href="#{{ scope.modal }}-{{ type.modal }}" class="thumbnail" data-toggle="modal">
-                  <div class="language-tile language-tile-text">{{ type.title }}</div>
-                </a>
+              <div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp" id="{{ scope.modal }}-{{ type.modal }}">
+                <div class="mdl-card__title">
+                  <h2 class="mdl-card__title-text">{{ type.title }}</h2>
+                </div>
+                {% for package in type.packages %}
+                <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ package.url }}">{{ package.title }}</a>
+                </div>
+                {% endfor %}
               </div>
             {% endfor %}
           </div>
