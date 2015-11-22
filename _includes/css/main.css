@@ -7,3 +7,11 @@ div .header {
     color: #{{ site.color.secondary }};
     background: #{{ site.color.primary }};
 }
+
+div .navbar {
+  background: #{{ site.color.secondary }};
+}
+
+a:hover {
+  background-color: #{{ site.color.active }};
+}
