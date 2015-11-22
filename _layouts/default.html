@@ -2,13 +2,15 @@
 <html>
     {% include head.html %}
     <body id="page-top" class="index">
-    {% include nav.html %}
-    {% include header.html %}
-
-    {% include providers.html %}
-
-    {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
+      <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        {% include nav.html %}
+        <main class="mdl-layout__content">
+          <div class="page-content">
+            {% include header.html %}
+            {% include providers.html %}
+            {% include footer.html %}
+          </div>
+        </div>
+      </div>
     </body>
 </html>
