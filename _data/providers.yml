@@ -402,3 +402,8 @@
       packages:
         - title: linter-manager
           url: https://atom.io/packages/linter-manager
+    - title: GitHub
+      modal: github
+      packages:
+        - title: pull-requests
+          url: https://atom.io/packages/pull-requests
