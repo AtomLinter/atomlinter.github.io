@@ -97,7 +97,7 @@
         - title: linter-liferay
           url: https://atom.io/packages/linter-liferay
     - title: R
-    - modal: r
+      modal: r
       packages:
         - title: linter-lintr
           url: https://atom.io/packages/linter-lintr
