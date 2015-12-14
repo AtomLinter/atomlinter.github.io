@@ -24,8 +24,6 @@
           url: https://atom.io/packages/linter-liferay
         - title: linter-gjslint
           url: https://atom.io/packages/linter-gjslint
-        - title: linter-mixed-indent
-          url: https://atom.io/packages/linter-mixed-indent
     - title: CoffeeScript
       modal: coffee
       packages:
@@ -98,8 +96,6 @@
           url: https://atom.io/packages/linter-csslint
         - title: linter-liferay
           url: https://atom.io/packages/linter-liferay
-        - title: linter-mixed-indent
-          url: https://atom.io/packages/linter-mixed-indent
     - title: R
       modal: r
       packages:
@@ -114,8 +110,6 @@
           url: https://atom.io/packages/linter-9e-sass
         - title: linter-sass-lint
           url: https://atom.io/packages/linter-sass-lint
-        - title: linter-mixed-indent
-          url: https://atom.io/packages/linter-mixed-indent
     - title: SCSS
       modal: scss
       packages:
@@ -125,8 +119,6 @@
           url: https://atom.io/packages/linter-liferay
         - title: linter-sass-lint
           url: https://atom.io/packages/linter-sass-lint
-        - title: linter-mixed-indent
-          url: https://atom.io/packages/linter-mixed-indent
     - title: less
       modal: less
       packages:
@@ -395,6 +387,11 @@
       packages:
         - title: linter-scspell
           url: https://atom.io/packages/linter-scspell
+    - title: Style
+      modal: style
+      packages:
+        - title: linter-mixed-indent
+          url: https://atom.io/packages/linter-mixed-indent
 - plugin:
   title: Linter Plugins
   plural: Plugins
