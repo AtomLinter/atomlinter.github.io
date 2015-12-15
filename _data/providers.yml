@@ -387,6 +387,11 @@
       packages:
         - title: linter-scspell
           url: https://atom.io/packages/linter-scspell
+    - title: Style
+      modal: style
+      packages:
+        - title: linter-mixed-indent
+          url: https://atom.io/packages/linter-mixed-indent
 - plugin:
   title: Linter Plugins
   plural: Plugins
