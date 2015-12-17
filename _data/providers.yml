@@ -96,6 +96,8 @@
           url: https://atom.io/packages/linter-csslint
         - title: linter-liferay
           url: https://atom.io/packages/linter-liferay
+        - title: linter-stylelint
+          url: https://atom.io/packages/linter-stylelint
     - title: R
       modal: r
       packages:
