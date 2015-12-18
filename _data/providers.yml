@@ -340,6 +340,11 @@
       packages:
         - title: linter-xmllint
           url: https://atom.io/packages/linter-xmllint
+    - title: Processing
+      modal: pde
+      packages:
+        - title: linter-processing
+          url: https://atom.io/packages/linter-processing
 - ides:
   title: Integrated Devlopment Environments
   plural: IDEs
