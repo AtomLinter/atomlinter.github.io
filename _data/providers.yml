@@ -345,6 +345,11 @@
       packages:
         - title: linter-processing
           url: https://atom.io/packages/linter-processing
+    - title: GLSL
+      modal: glsl
+      packages:
+        - title: linter-glsl
+          url: https://atom.io/packages/linter-glsl
 - ides:
   title: Integrated Devlopment Environments
   plural: IDEs
