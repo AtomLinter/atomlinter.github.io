@@ -245,8 +245,6 @@
           url: https://atom.io/packages/linter-swiftc
         - title: linter-swiftlint
           url: https://atom.io/packages/linter-swiftlint
-        - title: linter-swift-package-manager
-          url: https://github.com/pk11/linter-swift-package-manager
     - title: LaTeX
       modal: latex
       packages:
