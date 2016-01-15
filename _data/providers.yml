@@ -57,6 +57,13 @@
           url: https://atom.io/packages/linter-reek
         - title: linter-ruby-reek
           url: https://atom.io/packages/linter-ruby-reek
+        - title: linter-erb
+          url: https://atom.io/packages/linter-erb
+    - title: Embedded Ruby
+      modal: erb
+      packages:
+        - title: linter-erb
+          url: https://atom.io/packages/linter-erb
     - title: Haml
       modal: haml
       packages:
