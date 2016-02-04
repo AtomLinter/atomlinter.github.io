@@ -153,6 +153,8 @@
       packages:
         - title: linter-clang
           url: https://atom.io/packages/linter-clang
+        - title: linter-cppcheck
+          url: https://atom.io/packages/linter-cppcheck
         - title: linter-gcc
           url: https://atom.io/packages/linter-gcc
         - title: linter-moose
@@ -164,6 +166,8 @@
       packages:
         - title: linter-clang
           url: https://atom.io/packages/linter-clang
+        - title: linter-cppcheck
+          url: https://atom.io/packages/linter-cppcheck
         - title: linter-gcc
           url: https://atom.io/packages/linter-gcc
         - title: linter-moose
