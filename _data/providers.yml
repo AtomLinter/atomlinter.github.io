@@ -12,6 +12,8 @@
           url: https://atom.io/packages/linter-jscs
         - title: linter-eslint
           url: https://atom.io/packages/linter-eslint
+        - title: flow-ide
+          url: https://atom.io/packages/flow-ide
         - title: linter-flow
           url: https://atom.io/packages/linter-flow
         - title: linter-js-standard
