@@ -390,6 +390,11 @@
       packages:
         - title: ide-haskell
           url: https://atom.io/packages/ide-haskell
+    - title: Flow
+      modal: js
+      packages:
+        - title: flow-ide
+          url: https://atom.io/packages/flow-ide
 - generic:
   title: Generic Linters
   plural: Linters
