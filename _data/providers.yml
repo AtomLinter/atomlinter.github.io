@@ -366,7 +366,7 @@
         - title: linter-glsl
           url: https://atom.io/packages/linter-glsl
 - ides:
-  title: Integrated Devlopment Environments
+  title: Integrated Development Environments
   plural: IDEs
   modal: ide
   types:
