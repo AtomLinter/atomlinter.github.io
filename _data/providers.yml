@@ -365,6 +365,11 @@
       packages:
         - title: linter-glsl
           url: https://atom.io/packages/linter-glsl
+    - title: Fortran
+      modal: fortran
+      packages:
+        - title: linter-gfortran
+          url: https://atom.io/packages/linter-gfortran
 - ides:
   title: Integrated Development Environments
   plural: IDEs
