@@ -150,6 +150,8 @@
       packages:
         - title: linter-scalac
           url: https://atom.io/packages/linter-scalac
+        - title: linter-scalastyle
+          url: https://atom.io/packages/linter-scalastyle
     - title: C
       modal: c
       packages:
