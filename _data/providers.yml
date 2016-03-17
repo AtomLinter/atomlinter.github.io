@@ -1,6 +1,6 @@
 - languages:
   title: Language Specific Linters
-  plural: Linters
+  plural: Languages
   modal: language
   types:
     - title: JavaScript

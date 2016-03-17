@@ -1,17 +1,56 @@
-.img-centered {
-    margin: 0 auto;
-}
-
-div .header {
-    text-align: center;
-    color: #{{ site.color.secondary }};
-    background: #{{ site.color.primary }};
-}
-
 div .navbar {
   background: #{{ site.color.secondary }};
 }
 
-a:hover {
+.navbar a:hover {
   background-color: #{{ site.color.active }};
+}
+
+.header {
+  height: 30vh;
+  background-color: #{{ site.color.primary }};
+  color: #{{ site.color.secondary }};
+}
+
+.header-inner {
+  padding-left: 13vmin;
+  height: 100%;
+  background: url(img/logo.svg) no-repeat left center;
+  background-size: 10vmin;
+}
+
+.header-description {
+  font-size: 6vmin;
+  font-family: "Damion";
+}
+
+.header-inner, .header-description {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+}
+
+.container {
+  max-width: 85%;
+  margin: 40px auto;
+}
+
+.type a {
+  color: #{{ site.color.secondary }};
+  text-decoration: none;
+}
+
+.type:hover {
+  background: #{{ site.color.primary }}
+}
+
+.flushleft {
+  margin-left: 0 !important;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -1,20 +1,34 @@
 {% for scope in site.data.providers %}
-<div id="{{ scope.modal }}">
-    <h2>{{ scope.title }}</h2>
-    <div class="mdl-grid">
-      {% assign types = scope.types | sort: 'title' %}
-      {% for type in types %}
-        <div class="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-shadow--2dp" id="{{ scope.modal }}-{{ type.modal }}">
-          <div class="mdl-card__title">
-            <h2 class="mdl-card__title-text">{{ type.title }}</h2>
-          </div>
-          {% for package in type.packages %}
-          <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ package.url }}">{{ package.title }}</a>
-          </div>
-          {% endfor %}
-        </div>
-      {% endfor %}
-    </div>
+<div class="container">
+	<div id="{{ scope.modal }}" class="mdl-grid">
+		<div class="mdl-cell mdl-cell--4-col mdl-card">
+			<div class="mdl-grid flushleft">
+				<div class="mdl-cell mdl-cell--12-col">
+					<div class="mdl-card__title">
+						<h2 class="mdl-card__title-text">{{ scope.title }}</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mdl-cell mdl-cell--8-col">
+			<div class="mdl-grid">
+				{% assign types = scope.types | sort: 'title' %}
+				{% for type in types %}
+				<div class="mdl-card mdl-cell mdl-cell--4-col" id="{{ scope.modal }}-{{ type.modal }}">
+					<div class="mdl-card__title">
+						<h2 class="mdl-card__title-text">{{ type.title }}</h2>
+					</div>
+					<ul class="mdl-list">
+						{% for package in type.packages %}
+						<li class="mdl-list__item type">
+							<a href="{{ package.url }}">{{ package.title }}</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
 </div>
 {% endfor %}

@@ -1,13 +1,13 @@
 <!-- Navigation -->
-<header class="navbar mdl-layout__header">
+<header class="mdl-layout__header navbar">
   <div class="mdl-layout__header-row">
     <!-- Title -->
     <span class="mdl-layout-title">AtomLinter</span>
     <!-- Add spacer, to align navigation to the right -->
     <div class="mdl-layout-spacer"></div>
     <!-- Navigation. We hide it in small screens. -->
-    <nav class="mdl-navigation mdl-layout--large-screen-only">
-      <a class="mdl-navigation__link" href="//atom.io/packages/linter">Atom Package Manager</a>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="//atom.io/packages/linter">Package</a>
       <a class="mdl-navigation__link" href="//atom-slack.herokuapp.com/">Slack</a>
       <a class="mdl-navigation__link" href="//github.com/AtomLinter/Linter">GitHub</a>
     </nav>
@@ -16,8 +16,8 @@
 <div class="mdl-layout__drawer">
   <span class="mdl-layout-title">AtomLinter</span>
   <nav class="mdl-navigation">
-    <a class="mdl-navigation__link" href="//atom.io/packages/linter">Atom Package Manager</a>
-    <a class="mdl-navigation__link" href="//atom-slack.herokuapp.com/">Slack</a>
-    <a class="mdl-navigation__link" href="//github.com/AtomLinter/Linter">GitHub</a>
+    {% for scope in site.data.providers %}
+    <a class="mdl-navigation__link" href="#{{ scope.modal }}">{{ scope.title }}</a>
+    {% endfor %}
   </nav>
 </div>
