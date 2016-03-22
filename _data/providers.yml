@@ -93,6 +93,8 @@
           url: https://atom.io/packages/linter-flake8
         - title: linter-pylama
           url: https://atom.io/packages/linter-pylama
+        - title: linter-python
+          url: https://atom.io/packages/linter-python
     - title: Java
       modal: java
       packages:
