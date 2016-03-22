@@ -87,8 +87,8 @@
           url: https://atom.io/packages/linter-pylint
         - title: linter-pep8
           url: https://atom.io/packages/linter-pep8
-        - title: linter-pep257
-          url: https://atom.io/packages/linter-pep257
+        - title: linter-pydocstyle
+          url: https://atom.io/packages/linter-pydocstyle
         - title: linter-flake8
           url: https://atom.io/packages/linter-flake8
         - title: linter-pylama
