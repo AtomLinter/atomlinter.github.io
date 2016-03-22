@@ -203,6 +203,8 @@
           url: https://atom.io/packages/linter-lua-findglobals
         - title: linter-glua
           url: https://atom.io/packages/linter-glua
+        - title: linter-luaparse
+          url: https://atom.io/packages/linter-luaparse
     - title: Clojure
       modal: clojure
       packages:
