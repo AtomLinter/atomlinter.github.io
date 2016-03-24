@@ -383,6 +383,8 @@
       packages:
         - title: linter-ansible-linting
           url: https://atom.io/packages/linter-ansible-linting
+        - title: linter-ansible-syntax
+          url: https://atom.io/packages/linter-ansible-syntax
 - ides:
   title: Integrated Development Environments
   plural: IDEs
