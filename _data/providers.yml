@@ -221,6 +221,8 @@
           url: https://atom.io/packages/linter-puppet-parse
         - title: linter-puppet-parser
           url: https://atom.io/packages/linter-puppet-parser
+        - title: linter-puppet-parsing
+          url: https://atom.io/packages/linter-puppet-parsing
     - title: Yaml
       modal: yaml
       packages:
@@ -376,6 +378,11 @@
       packages:
         - title: linter-gfortran
           url: https://atom.io/packages/linter-gfortran
+    - title: Ansible
+      modal: ansible
+      packages:
+        - title: linter-ansible-linting
+          url: https://atom.io/packages/linter-ansible-linting
 - ides:
   title: Integrated Development Environments
   plural: IDEs
