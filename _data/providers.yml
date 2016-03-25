@@ -434,6 +434,8 @@
           url: https://atom.io/packages/linter-write-good
         - title: linter-just-say-no
           url: https://atom.io/packages/linter-just-say-no
+        - title: linter-proselint
+          url: https://atom.io/packages/linter-proselint
     - title: Spell Checking
       modal: spelling
       packages:
