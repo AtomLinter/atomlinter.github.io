@@ -385,6 +385,11 @@
           url: https://atom.io/packages/linter-ansible-linting
         - title: linter-ansible-syntax
           url: https://atom.io/packages/linter-ansible-syntax
+    - title: Twig
+      modal: twig
+      packages:
+        - title: linter-twig
+          url: https://atom.io/packages/linter-twig
 - ides:
   title: Integrated Development Environments
   plural: IDEs
