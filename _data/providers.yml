@@ -257,6 +257,8 @@
     - title: Elixir
       modal: elixir
       packages:
+        - title: linter-elixirc
+          url: https://atom.io/packages/linter-elixirc
         - title: linter-elixir-credo
           url: https://atom.io/packages/linter-elixir-credo
     - title: Erlang
