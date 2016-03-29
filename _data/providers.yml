@@ -254,6 +254,11 @@
       packages:
         - title: linter-rust
           url: https://atom.io/packages/linter-rust
+    - title: Elixir
+      modal: elixir
+      packages:
+        - title: linter-elixir-credo
+          url: https://atom.io/packages/linter-elixir-credo
     - title: Erlang
       modal: erlang
       packages:
