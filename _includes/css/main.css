@@ -1,17 +1,36 @@
-.img-centered {
-    margin: 0 auto;
-}
-
 div .header {
-    text-align: center;
-    color: #{{ site.color.secondary }};
-    background: #{{ site.color.primary }};
+  text-align: center;
+  color: #{{ site.color.secondary }};
+  background: #{{ site.color.primary }};
 }
 
 div .navbar {
   background: #{{ site.color.secondary }};
 }
 
-a:hover {
+.navbar a:hover {
   background-color: #{{ site.color.active }};
+}
+
+.packages {
+  list-style: none;
+  padding-left: .6em;
+}
+
+.packages li {
+  font-size: 16px;
+  line-height: 2.2;
+}
+
+.packages a {
+  color: #{{ site.color.secondary }};
+  text-decoration: none;
+  padding: .5em .6em;
+  -webkit-transition: all .1s;
+  -o-transition: all .1s;
+  transition: all .1s;
+}
+
+.packages a:hover {
+  background: #F0F0F0;
 }
