@@ -1,6 +1,8 @@
-- title: Linter
+- title: linter
   author: steelbrain
   url: https://atom.io/packages/linter
+  code: https://github.com/steelbrain/linter
 - title: Nuclide
   author: Facebook
   url: https://atom.io/packages/nuclide
+  code: https://github.com/facebook/nuclide
