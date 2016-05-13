@@ -434,6 +434,8 @@
       packages:
         - title: linter-ocaml
           url: https://atom.io/packages/linter-ocaml
+        - title: ocaml-merlin
+          url: https://atom.io/packages/ocaml-merlin
 - generic:
   title: Generic Linters
   plural: Linters
