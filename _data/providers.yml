@@ -372,6 +372,8 @@
       packages:
         - title: linter-xmllint
           url: https://atom.io/packages/linter-xmllint
+        - title: linter-jing
+          url: https://atom.io/packages/linter-jing
     - title: Processing
       modal: pde
       packages:
