@@ -464,6 +464,8 @@
       packages:
         - title: linter-scspell
           url: https://atom.io/packages/linter-scspell
+        - title: linter-spell
+          url: https://atom.io/packages/linter-spell
     - title: Style
       modal: style
       packages:
