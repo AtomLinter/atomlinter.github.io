@@ -217,8 +217,6 @@
       packages:
         - title: linter-puppet-lint
           url: https://atom.io/packages/linter-puppet-lint
-        - title: linter-puppet-parse
-          url: https://atom.io/packages/linter-puppet-parse
         - title: linter-puppet-parser
           url: https://atom.io/packages/linter-puppet-parser
         - title: linter-puppet-parsing
