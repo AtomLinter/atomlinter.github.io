@@ -304,11 +304,6 @@
           url: https://atom.io/packages/linter-handlebars
         - title: linter-liferay
           url: https://atom.io/packages/linter-liferay
-    - title: Jade
-      modal: jade
-      packages:
-        - title: linter-jade
-          url: https://atom.io/packages/linter-jade
     - title: Jolie
       modal: jolie
       packages:
