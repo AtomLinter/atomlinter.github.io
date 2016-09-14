@@ -394,6 +394,11 @@
       packages:
         - title: linter-twig
           url: https://atom.io/packages/linter-twig
+    - title: Terraform
+      modal: terraform
+      packages:
+        - title: linter-terraform-syntax
+          url: https://atom.io/packages/linter-terraform-syntax
 - ides:
   title: Integrated Development Environments
   plural: IDEs
