@@ -95,6 +95,8 @@
           url: https://atom.io/packages/linter-pylama
         - title: linter-python
           url: https://atom.io/packages/linter-python
+        - title: linter-mypy
+          url: https://atom.io/packages/linter-mypy
     - title: Java
       modal: java
       packages:
