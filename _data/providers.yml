@@ -401,6 +401,11 @@
       packages:
         - title: linter-terraform-syntax
           url: https://atom.io/packages/linter-terraform-syntax
+    - title: Icinga
+      modal: icinga
+      packages:
+        - title: linter-icinga-validate
+          url: https://atom.io/packages/linter-icinga-validate
 - ides:
   title: Integrated Development Environments
   plural: IDEs
