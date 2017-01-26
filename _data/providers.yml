@@ -406,6 +406,11 @@
       packages:
         - title: linter-icinga-validate
           url: https://atom.io/packages/linter-icinga-validate
+    - title: Chef
+      modal: chef
+      packages:
+        - title: linter-cookstyle
+          url: https://atom.io/packages/linter-cookstyle
 - ides:
   title: Integrated Development Environments
   plural: IDEs
