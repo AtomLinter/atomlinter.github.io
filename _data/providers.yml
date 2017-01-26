@@ -410,7 +410,7 @@
       modal: chef
       packages:
         - title: linter-cookstyle
-        url: https://atom.io/packages/linter-cookstyle
+          url: https://atom.io/packages/linter-cookstyle
 - ides:
   title: Integrated Development Environments
   plural: IDEs
