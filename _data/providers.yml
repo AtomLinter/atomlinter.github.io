@@ -411,6 +411,11 @@
       packages:
         - title: linter-cookstyle
           url: https://atom.io/packages/linter-cookstyle
+    - title: Julia
+      modal: julia
+      packages:
+        - title: linter-julia
+          url: https://atom.io/packages/linter-julia
 - ides:
   title: Integrated Development Environments
   plural: IDEs
