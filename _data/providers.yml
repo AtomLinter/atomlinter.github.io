@@ -416,8 +416,13 @@
       packages:
         - title: linter-julia
           url: https://atom.io/packages/linter-julia
+    - title: Packer
+      modal: packer
+      packages:
+        - title: linter-packer-validate
+          url: https://atom.io/packages/linter-packer-validate
     - title: Reason
-      modal: re
+      modal: reason
       packages:
         - title: reason-refmt
           url: https://atom.io/packages/reason-refmt
