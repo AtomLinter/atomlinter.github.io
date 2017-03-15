@@ -416,6 +416,11 @@
       packages:
         - title: linter-julia
           url: https://atom.io/packages/linter-julia
+    - title: Reason
+      modal: re
+      packages:
+        - title: reason-refmt
+          url: https://atom.io/packages/reason-refmt
 - ides:
   title: Integrated Development Environments
   plural: IDEs
