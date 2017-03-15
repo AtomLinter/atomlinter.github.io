@@ -421,6 +421,11 @@
       packages:
         - title: linter-packer-validate
           url: https://atom.io/packages/linter-packer-validate
+    - title: Reason
+      modal: reason
+      packages:
+        - title: reason-refmt
+          url: https://atom.io/packages/reason-refmt
 - ides:
   title: Integrated Development Environments
   plural: IDEs
