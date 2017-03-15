@@ -416,6 +416,11 @@
       packages:
         - title: linter-julia
           url: https://atom.io/packages/linter-julia
+    - title: Packer
+      modal: packer
+      packages:
+        - title: linter-packer-validate
+          url: https://atom.io/packages/linter-packer-validate
 - ides:
   title: Integrated Development Environments
   plural: IDEs
