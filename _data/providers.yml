@@ -426,6 +426,11 @@
       packages:
         - title: reason-refmt
           url: https://atom.io/packages/reason-refmt
+    - title: Vagrant
+      modal: vagrant
+      packages:
+        - title: linter-vagrant-validate
+          url: https://atom.io/packages/linter-vagrant-validate
 - ides:
   title: Integrated Development Environments
   plural: IDEs
