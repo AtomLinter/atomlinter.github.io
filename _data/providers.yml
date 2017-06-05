@@ -431,6 +431,11 @@
       packages:
         - title: linter-vagrant-validate
           url: https://atom.io/packages/linter-vagrant-validate
+    - title: Travis CI
+      modal: travis
+      packages:
+        - title: linter-travis-lint
+          url: https://atom.io/packages/linter-travis-lint
 - ides:
   title: Integrated Development Environments
   plural: IDEs
