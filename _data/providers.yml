@@ -494,6 +494,8 @@
           url: https://atom.io/packages/linter-just-say-no
         - title: linter-proselint
           url: https://atom.io/packages/linter-proselint
+        - title: linter-ibmstyleguide
+          url: https://atom.io/packages/linter-ibmstyleguide
     - title: Spell Checking
       modal: spelling
       packages:
