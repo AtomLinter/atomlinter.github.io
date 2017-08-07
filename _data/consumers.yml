@@ -6,3 +6,7 @@
   author: Facebook
   url: https://atom.io/packages/nuclide
   code: https://github.com/facebook/nuclide
+- title: atom-ide-ui
+  author: Facebook & GitHub
+  url: https://atom.io/packages/atom-ide-ui
+  code: https://github.com/facebook/nuclide/tree/master/modules/atom-ide-ui
