@@ -436,6 +436,13 @@
       packages:
         - title: linter-travis-lint
           url: https://atom.io/packages/linter-travis-lint
+    - title: Docker
+      modal: docker
+      packages:
+        - title: linter-hadolint
+          url: https://atom.io/packages/linter-hadolint
+        - title: linter-docker
+          url: https://atom.io/packages/linter-docker
 - ides:
   title: Integrated Development Environments
   plural: IDEs
