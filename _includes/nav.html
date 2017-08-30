@@ -7,6 +7,7 @@
     <div class="mdl-layout-spacer"></div>
     <!-- Navigation. We hide it in small screens. -->
     <nav class="mdl-navigation mdl-layout--large-screen-only">
+      <a class="mdl-navigation__link" href="//github.com/AtomLinter/atomlinter.github.io#adding-a-linter-provider">Add your Linter</a>
       <a class="mdl-navigation__link" href="//atom.io/packages/linter">Atom Package Manager</a>
       <a class="mdl-navigation__link" href="//atom-slack.herokuapp.com/">Slack</a>
       <a class="mdl-navigation__link" href="//github.com/AtomLinter/Linter">GitHub</a>
@@ -19,5 +20,6 @@
     {% for scope in site.data.providers %}
     <a class="mdl-navigation__link" href="#{{ scope.modal }}">{{ scope.title }}</a>
     {% endfor %}
+    <a class="mdl-navigation__link" href="//github.com/AtomLinter/atomlinter.github.io#adding-a-linter-provider">Add your Linter</a>
   </nav>
 </div>
