@@ -448,6 +448,11 @@
       packages:
         - title: linter-makensis
           url: https://atom.io/packages/linter-makensis
+    - title: Jenkins
+      modal: jenkins
+      packages:
+        - title: linter-jenkins
+          url: https://atom.io/packages/linter-jenkins
 - ides:
   title: Integrated Development Environments
   plural: IDEs
