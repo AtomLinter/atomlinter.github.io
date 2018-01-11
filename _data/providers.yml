@@ -246,6 +246,8 @@
           url: https://atom.io/packages/linter-liferay
         - title: linter-vnu
           url: https://atom.io/packages/linter-vnu
+        - title: linter-selective
+          url: https://atom.io/packages/linter-selective
     - title: Bootstrap HTML
       modal: twbs
       packages:
