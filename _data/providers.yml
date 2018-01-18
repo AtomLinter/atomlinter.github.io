@@ -515,6 +515,8 @@
           url: https://atom.io/packages/linter-proselint
         - title: linter-ibmstyleguide
           url: https://atom.io/packages/linter-ibmstyleguide
+        - title: linter-american
+          url: https://atom.io/packages/linter-american
     - title: Spell Checking
       modal: spelling
       packages:
