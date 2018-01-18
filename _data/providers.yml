@@ -258,6 +258,8 @@
       packages:
         - title: linter-rust
           url: https://atom.io/packages/linter-rust
+        - title: linter-rust-cargo
+          url: https://atom.io/packages/linter-rust-cargo
     - title: Elixir
       modal: elixir
       packages:
