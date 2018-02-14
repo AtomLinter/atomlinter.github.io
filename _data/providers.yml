@@ -66,6 +66,11 @@
       packages:
         - title: linter-erb
           url: https://atom.io/packages/linter-erb
+    - title: GAMS
+      modal: gams
+      packages:
+        - title: linter-gams
+          url: https://atom.io/packages/linter-gams
     - title: Haml
       modal: haml
       packages:
