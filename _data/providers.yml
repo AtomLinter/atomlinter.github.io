@@ -253,6 +253,8 @@
           url: https://atom.io/packages/linter-vnu
         - title: linter-selective
           url: https://atom.io/packages/linter-selective
+        - title: linter-htmllint
+          url: https://atom.io/packages/linter-htmllint
     - title: Bootstrap HTML
       modal: twbs
       packages:
