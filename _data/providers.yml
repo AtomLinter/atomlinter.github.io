@@ -526,6 +526,8 @@
           url: https://atom.io/packages/linter-ibmstyleguide
         - title: linter-american
           url: https://atom.io/packages/linter-american
+        - title: linter-google-styleguide
+          url: https://atom.io/packages/linter-google-styleguide
     - title: Spell Checking
       modal: spelling
       packages:
