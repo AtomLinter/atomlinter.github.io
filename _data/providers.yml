@@ -511,6 +511,11 @@
       packages:
         - title: linter-flint
           url: https://atom.io/packages/linter-flint
+    - title: Code Quality
+      modal: quality
+      packages:
+        - title: linter-coverage
+          url: https://atom.io/packages/linter-coverage
     - title: Writing Assistance
       modal: writing
       packages:
