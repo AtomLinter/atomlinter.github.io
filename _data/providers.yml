@@ -385,6 +385,8 @@
       packages:
         - title: linter-processing
           url: https://atom.io/packages/linter-processing
+        - title: linter-processing-java
+          url: https://atom.io/packages/linter-processing-java
     - title: GLSL
       modal: glsl
       packages:
