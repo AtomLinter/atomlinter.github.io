@@ -469,11 +469,15 @@
       packages:
         - title: omnisharp-atom
           url: https://atom.io/packages/omnisharp-atom
+        - title: ide-cshard
+          url: https://atom.io/packages/ide-csharp
     - title: TypeScript
       modal: ts
       packages:
         - title: atom-typescript
           url: https://atom.io/packages/atom-typescript
+        - title: ide-typescript
+          url: https://atom.io/packages/ide-typescript
     - title: F#
       modal: fs
       packages:
@@ -484,11 +488,22 @@
       packages:
         - title: ide-haskell
           url: https://atom.io/packages/ide-haskell
+        - title: ide-haskell-hie
+          url: https://atom.io/packages/ide-haskell-hie
     - title: Flow
-      modal: js
+      modal: flow
       packages:
         - title: flow-ide
           url: https://atom.io/packages/flow-ide
+        - title: ide-Flow
+          url: https://atom.io/packages/ide-flowtype
+    - title: JavaScript
+      modal: js
+      packages:
+        - title: ide-Flow
+          url: https://atom.io/packages/ide-flowtype
+        - title: ide-typescript
+          url: https://atom.io/packages/ide-typescript
     - title: OCaml
       modal: ml
       packages:
@@ -496,11 +511,58 @@
           url: https://atom.io/packages/linter-ocaml
         - title: ocaml-merlin
           url: https://atom.io/packages/ocaml-merlin
+        - title: ide-reason
+          url: https://atom.io/packages/ide-reason
     - title: Crystal
       modal: cr
       packages:
         - title: ide-crystal
           url: https://atom.io/packages/ide-crystal
+    - title: Java
+      modal: java
+      packages:
+        - title: ide-java
+          url: https://atom.io/packages/ide-java
+    - title: JSON
+      modal: json
+      packages:
+        - title: ide-json
+          url: https://atom.io/packages/ide-json
+    - title: Docker
+      modal: docker
+      packages:
+        - title: ide-docker
+          url: https://atom.io/packages/ide-docker
+    - title: Python
+      modal: py
+      packages:
+        - title: ide-python
+          url: https://atom.io/packages/ide-python
+    - title: ReasonML
+      modal: reasonml
+      packages:
+        - title: ide-reason
+          url: https://atom.io/packages/ide-reason
+    - title: Rust
+      modal: rs
+      packages:
+        - title: ide-rust
+          url: https://atom.io/packages/ide-rust
+    - title: Vue
+      modal: vue
+      packages:
+        - title: ide-vue
+          url: https://atom.io/packages/ide-vue
+    - title: PowerShell
+      modal: ps
+      packages:
+        - title: ide-powershell
+          url: https://atom.io/packages/ide-powershell
+    - title: Bash
+      modal: sh
+      packages:
+        - title: ide-bash
+          url: https://atom.io/packages/ide-bash
 - generic:
   title: Generic Linters
   plural: Linters
