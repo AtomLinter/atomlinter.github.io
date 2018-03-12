@@ -293,11 +293,6 @@
       packages:
         - title: linter-chktex
           url: https://atom.io/packages/linter-chktex
-    - title: Crystal
-      modal: cr
-      packages:
-        - title: linter-crystal
-          url: https://atom.io/packages/linter-crystal
     - title: Go
       modal: go
       packages:
@@ -501,6 +496,11 @@
           url: https://atom.io/packages/linter-ocaml
         - title: ocaml-merlin
           url: https://atom.io/packages/ocaml-merlin
+    - title: Crystal
+      modal: cr
+      packages:
+        - title: ide-crystal
+          url: https://atom.io/packages/ide-crystal
 - generic:
   title: Generic Linters
   plural: Linters
