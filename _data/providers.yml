@@ -469,7 +469,7 @@
       packages:
         - title: omnisharp-atom
           url: https://atom.io/packages/omnisharp-atom
-        - title: ide-cshard
+        - title: ide-csharp
           url: https://atom.io/packages/ide-csharp
     - title: TypeScript
       modal: ts
@@ -495,12 +495,12 @@
       packages:
         - title: flow-ide
           url: https://atom.io/packages/flow-ide
-        - title: ide-Flow
+        - title: ide-flowtype
           url: https://atom.io/packages/ide-flowtype
     - title: JavaScript
       modal: js
       packages:
-        - title: ide-Flow
+        - title: ide-flowtype
           url: https://atom.io/packages/ide-flowtype
         - title: ide-typescript
           url: https://atom.io/packages/ide-typescript
