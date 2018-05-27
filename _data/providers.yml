@@ -85,6 +85,8 @@
           url: https://atom.io/packages/linter-phpcs
         - title: linter-phpmd
           url: https://atom.io/packages/linter-phpmd
+        - title: atom-linter-phpstan
+          url: https://atom.io/packages/atom-linter-phpstan
     - title: Python
       modal: py
       packages:
