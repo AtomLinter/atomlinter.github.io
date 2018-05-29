@@ -353,6 +353,8 @@
       packages:
         - title: linter-elm-make
           url: https://atom.io/packages/linter-elm-make
+        - title: linter-elm-analyse
+          url: https://atom.io/packages/linter-elm-analyse
     - title: Prolog
       modal: prolog
       packages:
