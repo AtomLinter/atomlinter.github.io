@@ -614,6 +614,11 @@
       packages:
         - title: linter-mixed-indent
           url: https://atom.io/packages/linter-mixed-indent
+    - title: CloudFormation
+      modal: cloudformation
+      packages:
+        - title: atom-cfn-lint
+          url: https://atom.io/packages/atom-cfn-lint
 - plugin:
   title: Linter Plugins
   plural: Plugins
