@@ -626,11 +626,13 @@
   plural: Plugins
   modal: plugin
   types:
-    - title: Minimap
-      modal: Minimap
+    - title: Scroll Bar
+      modal: scrollbar
       packages:
         - title: minimap-linter
           url: https://atom.io/packages/minimap-linter
+        - title: lint-scroll-marker
+          url: https://atom.io/packages/lint-scroll-marker
     - title: Docking
       modal: docking
       packages:
