@@ -9,6 +9,7 @@ const Consumers = () => (
         consumers: allConsumersYaml {
           edges {
             node {
+              id
               author
               title
               url
@@ -23,7 +24,7 @@ const Consumers = () => (
         <h2>Consumers</h2>
         <div className="mdl-grid">
           {sortBy(data.consumers.edges, "node.title").map(({ node }: any) => (
-            <div className="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+            <div key={node.id} className="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-shadow--2dp">
               <div className="mdl-card__title">
                 <h2 className="mdl-card__title-text">{node.title}</h2>
               </div>

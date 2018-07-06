@@ -8,6 +8,7 @@ const Nav = () => (
         allProvidersYaml {
           edges {
             node {
+              id
               title
               modal
             }
@@ -56,7 +57,7 @@ const Nav = () => (
           <span className="mdl-layout-title">AtomLinter</span>
           <nav className="mdl-navigation">
             {data.allProvidersYaml.edges.map(({ node }: any) => (
-              <a className="mdl-navigation__link" href={`#${node.modal}`}>
+              <a key={node.id} className="mdl-navigation__link" href={`#${node.modal}`}>
                 {node.title}
               </a>
             ))}
