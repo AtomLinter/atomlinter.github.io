@@ -7,6 +7,9 @@
     "develop": "gatsby develop",
     "build": "gatsby build"
   },
+  "renovate": {
+    "extends": ["config:base"]
+  },
   "dependencies": {
     "@types/lodash": "^4.14.110",
     "@types/react": "^16.4.6",
