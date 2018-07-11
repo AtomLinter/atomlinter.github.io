@@ -1,7 +1,6 @@
 import { graphql, StaticQuery } from "gatsby";
 import * as React from "react";
 import { Helmet } from "react-helmet";
-import "../styles/main.css";
 
 const Head = () => (
   <StaticQuery
@@ -35,12 +34,6 @@ const Head = () => (
           href="/feed.xml"
         />
 
-        {/* Google Material Design Lite. Gotta have those cards.*/}
-        <link
-          rel="stylesheet"
-          href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css"
-        />
-        <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js" />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/icon?family=Material+Icons"

@@ -5,6 +5,9 @@ import Head from "../components/head";
 import Header from "../components/header";
 import Nav from "../components/nav";
 import Providers from "../components/providers";
+import "../styles/main.css";
+import "material-design-lite/material.css";
+import "material-design-lite";
 
 const Index = () => (
   <>
