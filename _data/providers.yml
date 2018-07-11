@@ -300,6 +300,8 @@
       packages:
         - title: linter-golinter
           url: https://atom.io/packages/linter-golinter
+        - title: linter-revive
+          url: https://atom.io/packages/linter-revive
     - title: JSON
       modal: json
       packages:
