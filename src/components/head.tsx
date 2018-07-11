@@ -1,6 +1,7 @@
 import { graphql, StaticQuery } from "gatsby";
 import * as React from "react";
 import { Helmet } from "react-helmet";
+import "../styles/main.css";
 
 const Head = () => (
   <StaticQuery
@@ -33,26 +34,6 @@ const Head = () => (
           title="RSS"
           href="/feed.xml"
         />
-
-        <style type="text/css">{`
-          .img-centered {
-            margin: 0 auto;
-          }
-        
-          div .header {
-            text-align: center;
-            color: ${data.site.siteMetadata.color.secondary};
-            background: ${data.site.siteMetadata.color.primary};
-          }
-        
-          div .navbar {
-            background: ${data.site.siteMetadata.color.secondary};
-          }
-        
-          a:hover {
-            background-color: ${data.site.siteMetadata.color.active};
-          }
-        `}</style>
 
         {/* Google Material Design Lite. Gotta have those cards.*/}
         <link
