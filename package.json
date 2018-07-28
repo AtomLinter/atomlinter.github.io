@@ -13,7 +13,7 @@
     ]
   },
   "dependencies": {
-    "@types/lodash": "4.14.114",
+    "@types/lodash": "4.14.115",
     "@types/react": "16.4.7",
     "@types/react-helmet": "5.0.6",
     "gatsby": "2.0.0-beta.17",
