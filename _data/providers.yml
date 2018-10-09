@@ -589,6 +589,8 @@
       packages:
         - title: linter-coverage
           url: https://atom.io/packages/linter-coverage
+        - title: linter-dryer
+          url: https://atom.io/packages/linter-dryer
     - title: Writing Assistance
       modal: writing
       packages:
