@@ -16,7 +16,7 @@
     "@types/lodash": "4.14.117",
     "@types/react": "16.4.16",
     "@types/react-helmet": "5.0.7",
-    "gatsby": "2.0.20",
+    "gatsby": "2.0.21",
     "gatsby-plugin-lodash": "3.0.1",
     "gatsby-plugin-manifest": "2.0.5",
     "gatsby-plugin-offline": "2.0.6",
