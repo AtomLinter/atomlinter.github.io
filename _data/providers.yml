@@ -472,6 +472,11 @@
       packages:
         - title: linter-vhdl
           url: https://atom.io/packages/linter-vhdl
+    - title: Kubernetes
+      modal: kubernetes
+      packages:
+        - title: linter-kubectl
+          url: https://atom.io/packages/linter-kubectl
 - ides:
   title: Integrated Development Environments
   plural: IDEs
