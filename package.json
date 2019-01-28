@@ -21,7 +21,7 @@
     "gatsby-plugin-manifest": "2.0.14",
     "gatsby-plugin-offline": "2.0.22",
     "gatsby-plugin-react-helmet": "3.0.5",
-    "gatsby-plugin-typescript": "2.0.3",
+    "gatsby-plugin-typescript": "2.0.4",
     "gatsby-source-filesystem": "2.0.18",
     "gatsby-transformer-yaml": "2.1.7",
     "lodash": "4.17.11",
