@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@types/lodash": "4.14.120",
-    "@types/react": "16.8.1",
+    "@types/react": "16.8.2",
     "@types/react-helmet": "5.0.8",
     "gatsby": "2.0.114",
     "gatsby-plugin-lodash": "3.0.4",
