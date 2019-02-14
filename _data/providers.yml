@@ -522,6 +522,8 @@
           url: https://atom.io/packages/ide-flowtype
         - title: ide-typescript
           url: https://atom.io/packages/ide-typescript
+        - title: ide-mocha
+          url: https://atom.io/packages/ide-mocha
     - title: OCaml
       modal: ml
       packages:
