@@ -86,9 +86,9 @@
         - title: linter-phpmd
           url: https://atom.io/packages/linter-phpmd
         - title: atom-linter-phpstan
-          url: https://atom.io/packages/atom-linter-phpstan   
+          url: https://atom.io/packages/atom-linter-phpstan
         - title: linter-phan
-          url: https://atom.io/packages/linter-phan             
+          url: https://atom.io/packages/linter-phan
     - title: Python
       modal: py
       packages:
@@ -304,6 +304,8 @@
           url: https://atom.io/packages/linter-golinter
         - title: linter-revive
           url: https://atom.io/packages/linter-revive
+        - title: linter-govet
+          url: https://atom.io/packages/linter-govet
     - title: JSON
       modal: json
       packages:
