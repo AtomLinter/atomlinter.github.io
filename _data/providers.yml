@@ -400,6 +400,11 @@
       packages:
         - title: linter-gfortran
           url: https://atom.io/packages/linter-gfortran
+    - title: Slim
+      modal: slim
+      packages:
+        - title: linter-slim
+          url: https://atom.io/packages/linter-slim
     - title: Ansible
       modal: ansible
       packages:
