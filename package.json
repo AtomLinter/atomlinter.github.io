@@ -10,6 +10,17 @@
   "renovate": {
     "extends": [
       "config:base"
+    ],
+    "packageRules": [
+      {
+        "packagePatterns": [
+          "^gatsby"
+        ],
+        "groupName": "Gatsby packages",
+        "extends": [
+          "schedule:weekly"
+        ]
+      }
     ]
   },
   "dependencies": {
