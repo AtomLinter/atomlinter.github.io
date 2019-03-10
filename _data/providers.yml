@@ -61,11 +61,15 @@
           url: https://atom.io/packages/linter-ruby-reek
         - title: linter-erb
           url: https://atom.io/packages/linter-erb
+        - title: linter-ruumba
+          url: https://github.com/vzamanillo/linter-ruumba          
     - title: Embedded Ruby
       modal: erb
       packages:
         - title: linter-erb
           url: https://atom.io/packages/linter-erb
+        - title: linter-ruumba
+          url: https://github.com/vzamanillo/linter-ruumba
     - title: GAMS
       modal: gams
       packages:
