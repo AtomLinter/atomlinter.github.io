@@ -40,6 +40,6 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-helmet": "5.2.0",
-    "typescript": "3.4.1"
+    "typescript": "3.4.2"
   }
 }
