@@ -1,6 +1,13 @@
 import { graphql, useStaticQuery } from "gatsby";
 import * as React from "react";
+import styled from "@emotion/styled";
 import logo from "../images/logo.svg";
+
+const Container = styled.div`
+  text-align: center;
+  color: #66595c;
+  background: #efeae1;
+`;
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -15,7 +22,7 @@ const Header = () => {
   `);
 
   return (
-    <div className="header content-grid mdl-grid">
+    <Container className="content-grid mdl-grid">
       <img
         className="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone"
         src={logo}
@@ -29,7 +36,7 @@ const Header = () => {
       <h3 className="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
         {data.site.siteMetadata.description}
       </h3>
-    </div>
+    </Container>
   );
 };
 

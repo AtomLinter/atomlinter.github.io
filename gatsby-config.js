@@ -12,6 +12,7 @@ const siteMetadata = {
 module.exports = {
   siteMetadata,
   plugins: [
+    "gatsby-plugin-emotion",
     "gatsby-plugin-lodash",
     "gatsby-transformer-yaml",
     {

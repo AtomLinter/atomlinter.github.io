@@ -1,5 +1,16 @@
 import { graphql, useStaticQuery } from "gatsby";
 import * as React from "react";
+import styled from "@emotion/styled";
+
+const NavbarContainer = styled.header`
+  background: #66595c;
+`;
+
+const Link = styled.a`
+  :hover {
+    background-color: #81c08b;
+  }
+`;
 
 const Nav = () => {
   const data = useStaticQuery(graphql`
@@ -18,7 +29,7 @@ const Nav = () => {
 
   return (
     <>
-      <header className="navbar mdl-layout__header">
+      <NavbarContainer className="mdl-layout__header">
         <div className="mdl-layout__header-row">
           {/*  Title */}
           <span className="mdl-layout-title">AtomLinter</span>
@@ -26,33 +37,33 @@ const Nav = () => {
           <div className="mdl-layout-spacer" />
           {/*  Navigation. We hide it in small screens. */}
           <nav className="mdl-navigation mdl-layout--large-screen-only">
-            <a
+            <Link
               className="mdl-navigation__link"
               href="//github.com/AtomLinter/atomlinter.github.io#adding-a-linter-provider"
             >
               Add your Linter
-            </a>
-            <a
+            </Link>
+            <Link
               className="mdl-navigation__link"
               href="//atom.io/packages/linter"
             >
               Atom Package Manager
-            </a>
-            <a
+            </Link>
+            <Link
               className="mdl-navigation__link"
               href="//atom-slack.herokuapp.com/"
             >
               Slack
-            </a>
-            <a
+            </Link>
+            <Link
               className="mdl-navigation__link"
               href="//github.com/AtomLinter/Linter"
             >
               GitHub
-            </a>
+            </Link>
           </nav>
         </div>
-      </header>
+      </NavbarContainer>
       <div className="mdl-layout__drawer">
         <span className="mdl-layout-title">AtomLinter</span>
         <nav className="mdl-navigation">
