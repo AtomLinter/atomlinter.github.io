@@ -1,12 +1,12 @@
 import * as React from "react";
+import "material-design-lite/material.css";
+import "material-design-lite";
 import Consumers from "../components/consumers";
 import Footer from "../components/footer";
 import Head from "../components/head";
 import Header from "../components/header";
 import Nav from "../components/nav";
 import Providers from "../components/providers";
-import "material-design-lite/material.css";
-import "material-design-lite";
 
 const Index = () => (
   <>

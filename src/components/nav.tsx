@@ -12,9 +12,37 @@ const Link = styled.a`
   }
 `;
 
+interface NavQuery {
+  site: {
+    siteMetadata: {
+      nav: {
+        name: string;
+        url: string;
+      }[];
+    };
+  };
+  allProvidersYaml: {
+    edges: {
+      node: {
+        id: string;
+        title: string;
+        modal: string;
+      };
+    }[];
+  };
+}
+
 const Nav = () => {
-  const data = useStaticQuery(graphql`
+  const data = useStaticQuery<NavQuery>(graphql`
     query NavQuery {
+      site {
+        siteMetadata {
+          nav {
+            name
+            url
+          }
+        }
+      }
       allProvidersYaml {
         edges {
           node {
@@ -37,37 +65,18 @@ const Nav = () => {
           <div className="mdl-layout-spacer" />
           {/*  Navigation. We hide it in small screens. */}
           <nav className="mdl-navigation mdl-layout--large-screen-only">
-            <Link
-              className="mdl-navigation__link"
-              href="//github.com/AtomLinter/atomlinter.github.io#adding-a-linter-provider"
-            >
-              Add your Linter
-            </Link>
-            <Link
-              className="mdl-navigation__link"
-              href="//atom.io/packages/linter"
-            >
-              Atom Package Manager
-            </Link>
-            <Link
-              className="mdl-navigation__link"
-              href="//atom-slack.herokuapp.com/"
-            >
-              Slack
-            </Link>
-            <Link
-              className="mdl-navigation__link"
-              href="//github.com/AtomLinter/Linter"
-            >
-              GitHub
-            </Link>
+            {data.site.siteMetadata.nav.map(link => (
+              <Link className="mdl-navigation__link" href={link.url}>
+                {link.name}
+              </Link>
+            ))}
           </nav>
         </div>
       </NavbarContainer>
       <div className="mdl-layout__drawer">
         <span className="mdl-layout-title">AtomLinter</span>
         <nav className="mdl-navigation">
-          {data.allProvidersYaml.edges.map(({ node }: any) => (
+          {data.allProvidersYaml.edges.map(({ node }) => (
             <a
               key={node.id}
               className="mdl-navigation__link"
@@ -76,12 +85,11 @@ const Nav = () => {
               {node.title}
             </a>
           ))}
-          <a
-            className="mdl-navigation__link"
-            href="//github.com/AtomLinter/atomlinter.github.io#adding-a-linter-provider"
-          >
-            Add your Linter
-          </a>
+          {data.site.siteMetadata.nav.map(link => (
+            <a className="mdl-navigation__link" href={link.url}>
+              {link.name}
+            </a>
+          ))}
         </nav>
       </div>
     </>

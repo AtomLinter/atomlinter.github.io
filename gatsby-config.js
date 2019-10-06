@@ -6,7 +6,26 @@ const siteMetadata = {
     primary: "#efeae1",
     secondary: "#66595c",
     active: "#81c08b"
-  }
+  },
+  nav: [
+    {
+      name: "Add your Linter",
+      url:
+        "https://github.com/AtomLinter/atomlinter.github.io#adding-a-linter-provider"
+    },
+    {
+      name: "Atom Package Manager",
+      url: "https://atom.io/packages/linter"
+    },
+    {
+      name: "Slack",
+      url: "https://atom-slack.herokuapp.com/"
+    },
+    {
+      name: "GitHub",
+      url: "https://github.com/AtomLinter/Linter"
+    }
+  ]
 };
 
 module.exports = {
