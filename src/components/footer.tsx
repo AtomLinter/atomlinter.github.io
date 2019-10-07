@@ -1,7 +1,18 @@
 import { graphql, useStaticQuery } from "gatsby";
 import * as React from "react";
+import { Box, Typography } from "@material-ui/core";
+import { makeStyles } from "@material-ui/styles";
+
+const useStyles = makeStyles({
+  footer: {
+    padding: "3em",
+    backgroundColor: "#424242",
+    color: "white"
+  }
+});
 
 const Footer = () => {
+  const classes = useStyles();
   const data = useStaticQuery(graphql`
     query FooterQuery {
       site {
@@ -13,11 +24,9 @@ const Footer = () => {
   `);
 
   return (
-    <footer className="mdl-mini-footer">
-      <div className="mdl-mini-footer__left-section">
-        <div className="mdl-logo">{data.site.siteMetadata.title}</div>
-      </div>
-    </footer>
+    <Box component="footer" className={classes.footer}>
+      <Typography>Copyright {data.site.siteMetadata.title}</Typography>
+    </Box>
   );
 };
 

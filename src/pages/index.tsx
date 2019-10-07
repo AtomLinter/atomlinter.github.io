@@ -1,6 +1,7 @@
 import * as React from "react";
-import "material-design-lite/material.css";
-import "material-design-lite";
+import { CssBaseline, Container } from "@material-ui/core";
+import { makeStyles } from "@material-ui/styles";
+import "typeface-roboto";
 import Consumers from "../components/consumers";
 import Footer from "../components/footer";
 import Head from "../components/head";
@@ -8,21 +9,28 @@ import Header from "../components/header";
 import Nav from "../components/nav";
 import Providers from "../components/providers";
 
-const Index = () => (
-  <>
-    <Head />
-    <div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+const useStyles = makeStyles({
+  content: {
+    padding: "1em"
+  }
+});
+
+const Index = () => {
+  const classes = useStyles();
+
+  return (
+    <>
+      <Head />
+      <CssBaseline />
       <Nav />
-      <main className="mdl-layout__content">
-        <div className="page-content">
-          <Header />
-          <Consumers />
-          <Providers />
-          <Footer />
-        </div>
-      </main>
-    </div>
-  </>
-);
+      <Header />
+      <Container component="main" className={classes.content}>
+        <Consumers />
+        <Providers />
+      </Container>
+      <Footer />
+    </>
+  );
+};
 
 export default Index;

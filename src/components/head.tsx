@@ -22,12 +22,12 @@ const Head = () => {
 
   return (
     <Helmet defaultTitle={data.site.siteMetadata.title}>
+      <html lang="en" />
       <meta name="description" content={data.site.siteMetadata.description} />
       <link rel="canonical" href={data.site.siteMetadata.url} />
-
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      <meta
+        name="viewport"
+        content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
       />
     </Helmet>
   );

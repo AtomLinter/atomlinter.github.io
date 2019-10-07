@@ -1,15 +1,24 @@
 import { graphql, useStaticQuery } from "gatsby";
 import * as React from "react";
-import styled from "@emotion/styled";
+import { Container, makeStyles, Typography } from "@material-ui/core";
 import logo from "../images/logo.svg";
 
-const Container = styled.div`
-  text-align: center;
-  color: #66595c;
-  background: #efeae1;
-`;
+// const Container = styled.div`
+//   text-align: center;
+//   color: #66595c;
+//   background: #efeae1;
+// `;
+
+const useStyles = makeStyles({
+  banner: {
+    background: "#efeae1",
+    textAlign: "center",
+    padding: "2em"
+  }
+});
 
 const Header = () => {
+  const classes = useStyles();
   const data = useStaticQuery(graphql`
     query HeroQuery {
       site {
@@ -22,20 +31,10 @@ const Header = () => {
   `);
 
   return (
-    <Container className="content-grid mdl-grid">
-      <img
-        className="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone"
-        src={logo}
-        alt=""
-        width="200"
-        height="200"
-      />
-      <h1 className="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-        {data.site.siteMetadata.title}
-      </h1>
-      <h3 className="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-        {data.site.siteMetadata.description}
-      </h3>
+    <Container className={classes.banner} maxWidth="xl">
+      <img src={logo} width="225em" height="225em" />
+      <Typography variant="h2">{data.site.siteMetadata.title}</Typography>
+      <Typography variant="h4">{data.site.siteMetadata.description}</Typography>
     </Container>
   );
 };

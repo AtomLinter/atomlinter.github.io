@@ -1,6 +1,8 @@
 import { graphql, useStaticQuery } from "gatsby";
 import { sortBy } from "lodash";
 import * as React from "react";
+import { Grid } from "@material-ui/core";
+import { Card } from "./card";
 
 const Consumers = () => {
   const data = useStaticQuery(graphql`
@@ -22,35 +24,18 @@ const Consumers = () => {
   return (
     <div id="consumers">
       <h2>Consumers</h2>
-      <div className="mdl-grid">
+      <Grid container justify="space-evenly">
         {sortBy(data.consumers.edges, "node.title").map(({ node }: any) => (
-          <div
-            key={node.id}
-            className="mdl-card mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-shadow--2dp"
-          >
-            <div className="mdl-card__title">
-              <h2 className="mdl-card__title-text">{node.title}</h2>
-            </div>
-            <div className="mdl-card__supporting-text">
-              Maintained by {node.author}
-            </div>
-            <div className="mdl-card__actions mdl-card--border">
-              <a
-                className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                href={node.url}
-              >
-                Atom Package Manager
-              </a>
-              <a
-                className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
-                href={node.code}
-              >
-                Source Code on GitHub
-              </a>
-            </div>
-          </div>
+          <Card
+            title={node.title}
+            subtitle={`Maintained by ${node.author}`}
+            links={[
+              { name: "Atom Package Manager", url: node.url },
+              { name: "Source Code on GitHub", url: node.code }
+            ]}
+          />
         ))}
-      </div>
+      </Grid>
     </div>
   );
 };
