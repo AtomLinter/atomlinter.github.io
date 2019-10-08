@@ -1,6 +1,6 @@
 const siteMetadata = {
   title: "AtomLinter",
-  url: "https://atomlinter.github.io",
+  siteUrl: "https://atomlinter.github.io",
   description: "Lint your code with ease in Atom.",
   color: {
     primary: "#efeae1",
@@ -31,17 +31,7 @@ const siteMetadata = {
 module.exports = {
   siteMetadata,
   plugins: [
-    "gatsby-plugin-material-ui",
-    "gatsby-plugin-lodash",
-    "gatsby-transformer-yaml",
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: "./_data/"
-      }
-    },
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-typescript",
+    "gatsby-theme-atom-service",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -51,7 +41,7 @@ module.exports = {
         background_color: siteMetadata.color.secondary,
         theme_color: siteMetadata.color.primary,
         display: "minimal-ui",
-        icon: "src/images/logo.svg" // This path is relative to the root of the site.
+        icon: "content/assets/logo.svg"
       }
     },
     "gatsby-plugin-offline"
