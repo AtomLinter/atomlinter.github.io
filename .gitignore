@@ -82,3 +82,6 @@ typings/
 # gatsby
 .cache
 public
+
+# Carraway
+gatsby-config.js
