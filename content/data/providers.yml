@@ -62,7 +62,7 @@
         - title: linter-erb
           url: https://atom.io/packages/linter-erb
         - title: linter-ruumba
-          url: https://atom.io/packages/linter-ruumba          
+          url: https://atom.io/packages/linter-ruumba
     - title: Embedded Ruby
       modal: erb
       packages:
