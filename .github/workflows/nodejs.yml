@@ -1,0 +1,18 @@
+name: Node.js
+
+on: [push]
+
+jobs:
+  ## Test building the website, make sure it's not broken by the push.
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+      - name: Install Dependencies
+        run: npm install
+      - name: Build Website
+        run: npm run build
