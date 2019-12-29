@@ -490,6 +490,11 @@
       packages:
         - title: linter-kubectl
           url: https://atom.io/packages/linter-kubectl
+    - title: Kotlin
+      modal: kotlin
+      packages:
+        - title: linter-ktlint
+          url: https://atom.io/packages/linter-ktlint
 - ides:
   title: Integrated Development Environments
   plural: IDEs
