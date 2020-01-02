@@ -73,7 +73,7 @@
     ]
   },
   "dependencies": {
-    "carraway": "1.0.7",
+    "carraway": "1.0.8",
     "gatsby": "2.18.17",
     "gatsby-plugin-manifest": "2.2.34",
     "gatsby-plugin-offline": "3.0.30",
