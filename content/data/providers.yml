@@ -96,6 +96,8 @@
     - title: Python
       modal: py
       packages:
+        - title: python-linters
+          url: https://atom.io/packages/python-linters
         - title: linter-pylint
           url: https://atom.io/packages/linter-pylint
         - title: linter-pep8
