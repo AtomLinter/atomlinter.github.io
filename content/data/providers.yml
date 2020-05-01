@@ -140,6 +140,8 @@
           url: https://atom.io/packages/linter-9e-sass
         - title: linter-sass-lint
           url: https://atom.io/packages/linter-sass-lint
+        - title: linter-stylelint
+          url: https://atom.io/packages/linter-stylelint
     - title: SCSS
       modal: scss
       packages:
@@ -149,11 +151,15 @@
           url: https://atom.io/packages/linter-liferay
         - title: linter-sass-lint
           url: https://atom.io/packages/linter-sass-lint
+        - title: linter-stylelint
+          url: https://atom.io/packages/linter-stylelint
     - title: less
       modal: less
       packages:
         - title: linter-less
           url: https://atom.io/packages/linter-less
+        - title: linter-stylelint
+          url: https://atom.io/packages/linter-stylelint
     - title: stylus
       modal: stylus
       packages:
