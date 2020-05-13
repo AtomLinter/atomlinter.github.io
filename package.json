@@ -74,10 +74,10 @@
   },
   "dependencies": {
     "carraway": "1.0.15",
-    "gatsby": "2.21.12",
-    "gatsby-plugin-manifest": "2.4.2",
-    "gatsby-plugin-offline": "3.2.1",
-    "gatsby-theme-atom-service": "1.1.128",
+    "gatsby": "2.21.28",
+    "gatsby-plugin-manifest": "2.4.3",
+    "gatsby-plugin-offline": "3.2.2",
+    "gatsby-theme-atom-service": "1.1.134",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   }
