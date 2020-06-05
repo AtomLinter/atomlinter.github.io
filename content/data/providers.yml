@@ -503,6 +503,11 @@
       packages:
         - title: linter-ktlint
           url: https://atom.io/packages/linter-ktlint
+    - title: Vault
+      modal: vault
+      packages:
+        - title: linter-vault-policy
+          url: https://atom.io/packages/linter-vault-policy
 - ides:
   title: Integrated Development Environments
   plural: IDEs
