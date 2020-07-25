@@ -508,6 +508,11 @@
       packages:
         - title: linter-vault-policy
           url: https://atom.io/packages/linter-vault-policy
+    - title: Verilog
+      modal: verilog
+      packages:
+        - title: linter-veriloghdl
+          url: https://atom.io/packages/linter-veriloghdl
 - ides:
   title: Integrated Development Environments
   plural: IDEs
