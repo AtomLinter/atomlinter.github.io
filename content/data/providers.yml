@@ -631,6 +631,8 @@
           url: https://atom.io/packages/linter-coverage
         - title: linter-dryer
           url: https://atom.io/packages/linter-dryer
+        - title: lizard cyclomatic complexity linter
+          url: { https://atom.io/packages/lizard-linter }
     - title: Writing Assistance
       modal: writing
       packages:
