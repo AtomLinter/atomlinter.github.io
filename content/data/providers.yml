@@ -320,6 +320,8 @@
           url: https://atom.io/packages/linter-revive
         - title: linter-govet
           url: https://atom.io/packages/linter-govet
+        - title: linter-gccgo
+          url: https://atom.io/packages/linter-gccgo
     - title: JSON
       modal: json
       packages:
