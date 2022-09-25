@@ -74,7 +74,7 @@
   },
   "dependencies": {
     "carraway": "1.0.17",
-    "gatsby": "2.23.1",
+    "gatsby": "2.24.80",
     "gatsby-plugin-manifest": "2.4.10",
     "gatsby-plugin-offline": "3.2.8",
     "gatsby-theme-atom-service": "1.1.153",
